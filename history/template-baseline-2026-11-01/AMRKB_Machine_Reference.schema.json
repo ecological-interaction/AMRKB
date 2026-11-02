@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AMRKB empty-template envelope \u2014 0.1.0; not a scientific schema or DRM certification",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "$schema",
+    "metadata",
+    "records",
+    "classifications",
+    "relationships",
+    "references",
+    "provenance"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "AMRKB_Machine_Reference.schema.json"
+    },
+    "metadata": {
+      "type": "object",
+      "required": [
+        "title",
+        "repository_identity",
+        "purpose",
+        "document_version",
+        "schema_version",
+        "status",
+        "academic_status",
+        "record_count",
+        "authority",
+        "attribution",
+        "identifier_policy",
+        "classification_policy",
+        "drm",
+        "value_semantics",
+        "rights",
+        "scope_boundary"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "repository_identity": {
+          "type": "string"
+        },
+        "purpose": {
+          "type": "string"
+        },
+        "document_version": {
+          "const": "0.1.0"
+        },
+        "schema_version": {
+          "const": "amrkb.empty-template/0.1.0"
+        },
+        "status": {
+          "const": "template_only_research_intake_pending"
+        },
+        "academic_status": {
+          "type": "string"
+        },
+        "record_count": {
+          "const": 0
+        },
+        "authority": {
+          "type": "object"
+        },
+        "attribution": {
+          "type": "object"
+        },
+        "identifier_policy": {
+          "type": "string"
+        },
+        "classification_policy": {
+          "type": "string"
+        },
+        "drm": {
+          "type": "object"
+        },
+        "value_semantics": {
+          "type": "object"
+        },
+        "rights": {
+          "type": "string"
+        },
+        "scope_boundary": {
+          "type": "string"
+        }
+      }
+    },
+    "records": {
+      "type": "array",
+      "maxItems": 0,
+      "description": "No accepted research entries at this template stage. Requires a separately reviewed schema revision before population."
+    },
+    "classifications": {
+      "type": "array",
+      "maxItems": 0,
+      "description": "No accepted research entries at this template stage. Requires a separately reviewed schema revision before population."
+    },
+    "relationships": {
+      "type": "array",
+      "maxItems": 0,
+      "description": "No accepted research entries at this template stage. Requires a separately reviewed schema revision before population."
+    },
+    "references": {
+      "type": "array",
+      "maxItems": 0,
+      "description": "No accepted research entries at this template stage. Requires a separately reviewed schema revision before population."
+    },
+    "provenance": {
+      "type": "array",
+      "maxItems": 0,
+      "description": "No accepted research entries at this template stage. Requires a separately reviewed schema revision before population."
+    }
+  }
+}

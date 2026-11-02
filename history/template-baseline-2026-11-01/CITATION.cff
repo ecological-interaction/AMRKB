@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you refer to this work-in-progress resource, please cite this metadata and identify the document version or commit consulted."
+type: dataset
+title: "Agricultural Modes Reference Knowledge Base (AMRKB)"
+authors:
+  - family-names: Minchin
+    given-names: Jonathan
+    affiliation: Ecological Interaction
+    orcid: "https://orcid.org/0000-0001-8152-1796"
+abstract: "Work in Progress — Academic Research Resource. Repository architecture and empty reference templates for the existing agricultural research scope. No research records, classification scheme, scientific verification, database release, DOI, licence or DRM conformance is established. Public accessibility and citation metadata do not grant reuse permissions."

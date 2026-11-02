@@ -1,0 +1,71 @@
+{
+  "document_title": "AMRKB source editions and reconciliation baseline",
+  "manifest_version": "0.1.0",
+  "prepared": "2026-11-01",
+  "status": "local_provenance_reconciliation_not_research_release",
+  "identifier_scope": "Local source-edition/audit locators, not scientific or federation entity IDs. Filename dates do not authenticate message or creation dates.",
+  "extraction_edition_id": "AMRKB-SRCED-0001",
+  "current_history_edition_id": "AMRKB-SRCED-0002",
+  "editions": [
+    {
+      "id": "AMRKB-SRCED-0001",
+      "path": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
+      "bytes": 23385,
+      "line_count": 247,
+      "terminal_newline": false,
+      "origin": "Exact UTF-8 bytes recovered on 2026-11-01 from AMRKB-PRO-0088.original_text in the pre-reconciliation Machine Reference; matches its pre-existing extraction hash.",
+      "role": "Supports all existing provenance quotations and 23 extraction-audit spans.",
+      "coverage": "Complete 247-line local extraction edition accounted for; original conversation completeness unproven.",
+      "immutable": true
+    },
+    {
+      "id": "AMRKB-SRCED-0002",
+      "path": "history/20261101_AMRKB_Chat_History.md",
+      "sha256": "333c42970b7d4268aca8a848fef633bcf7b215a0179ec74fa8fd40b15ca98bf7",
+      "bytes": 25900,
+      "line_count": 393,
+      "terminal_newline": false,
+      "origin": "Current history working edition inspected and preserved unchanged on 2026-11-01; original edit date/author and message metadata not established.",
+      "role": "Contains the earlier text plus one 146-line insertion; additions compared but not ingested into scientific collections.",
+      "coverage": "All 393 lines accounted for by the edition-comparison ledger, not claimed as a completed 393-line scientific extraction.",
+      "immutable": true
+    }
+  ],
+  "comparison_ledger": "AMRKB_Source_Edition_Comparison.json",
+  "reconciliation_report": "AMRKB_Source_Edition_Reconciliation.md",
+  "baseline_before_repair": {
+    "branch": "main",
+    "head": "615180ec9b4f849fece0c508c320a998a128d95c",
+    "configured_origin": "https://github.com/Jonathan-Minchin/AMRKB.git",
+    "status_porcelain": " M .gitignore\n M AGENTS.md\n M README.md\n?? AMRKB_Machine_Reference.json\n?? AMRKB_Machine_Reference.schema.json\n?? AMRKB_Research_Protocol.md\n?? AMRKB_Scientific_Reference_Register.md\n?? CHANGELOG.md\n?? CITATION.cff\n?? history/20261101_AMRKB_Chat_History.md\n?? history/template-baseline-2026-11-01/AGENTS.md\n?? history/template-baseline-2026-11-01/AMRKB_Machine_Reference.json\n?? history/template-baseline-2026-11-01/AMRKB_Machine_Reference.schema.json\n?? history/template-baseline-2026-11-01/AMRKB_Research_Protocol.md\n?? history/template-baseline-2026-11-01/AMRKB_Scientific_Reference_Register.md\n?? history/template-baseline-2026-11-01/CHANGELOG.md\n?? history/template-baseline-2026-11-01/CITATION.cff\n?? history/template-baseline-2026-11-01/README.md\n?? history/template-baseline-2026-11-01/SNAPSHOT.json\n?? history/template-baseline-2026-11-01/scripts/validate_amrkb.py\n?? scripts/validate_amrkb.py\n",
+    "file_sha256": {
+      "AMRKB_Research_Protocol.md": "3eeddb846699bee06f57b2a69a3920630926a17fc2d52ba0bba92ae4557a7a49",
+      "CHANGELOG.md": "cbc258109a4858ae58f463b1ee70c283c6343bbec988494943095c8868d4b4b4",
+      "CITATION.cff": "73d7185bffd45b5dc97fdb00f715878c69a546656150c0a6db552944900d1374",
+      "AMRKB_Machine_Reference.json": "786d7ca46d54ca6c1f14dfc21bf7d5c37b23d2e738fb508715656887e9cc1116",
+      "AMRKB_Scientific_Reference_Register.md": "41aac8cfc09cf265999f27dd4d6fa49787125e15f310d03c8eec21ff9d09dcc4",
+      "README.md": "2fe20e9c0351d31e1697daf3a47f4616b27c528385c8209220b72ea9abc2ea1a",
+      ".gitignore": "b0e43dd58a426f1b316375f0c9a3d3490408b9d47147d017e05068e3a5336bfd",
+      "AGENTS.md": "f8cf5977416352f2b9170be0ca63dbdb88636ce2b178d270fc1df5a40b8c5860",
+      "AMRKB_Machine_Reference.schema.json": "5737c2b176f3cfd135d762c52bf899da165b6e8ac204ff6ffbeb148953dbf7aa",
+      "scripts/validate_amrkb.py": "d356aa7394f70f0c0a85fb7633d54ebc3fa324a68a5187380bcc846ef8c8ec0f",
+      "history/20261101_AMRKB_Chat_History.md": "333c42970b7d4268aca8a848fef633bcf7b215a0179ec74fa8fd40b15ca98bf7",
+      "history/template-baseline-2026-11-01/AMRKB_Research_Protocol.md": "70ad7848e12bef158420314a126de66fb866703d7d77f153d384a97a7513532c",
+      "history/template-baseline-2026-11-01/CHANGELOG.md": "7eebe92dba34dea1e372efeb4507801d541a46294f58e85974f6f0b289340c87",
+      "history/template-baseline-2026-11-01/CITATION.cff": "834fa471fb020121ac36ce8f7e4ca7598b11b130b90ead4517ec927b58684af2",
+      "history/template-baseline-2026-11-01/AMRKB_Machine_Reference.json": "fdcbd8f455f537331d3d5faf3f239ad1c20b5f5fcf149b8ffdbd64ea0e111231",
+      "history/template-baseline-2026-11-01/SNAPSHOT.json": "59d1b2f5e849a00247af54782c2d725de6cae1d51ac04d3c3403bb44bd957951",
+      "history/template-baseline-2026-11-01/AMRKB_Scientific_Reference_Register.md": "afe78585148cb3008248866e4afd8fad2ff69de2a0067a33dfc77ea9c3a2ef4f",
+      "history/template-baseline-2026-11-01/README.md": "01569c08834c892a4b6cc95d60eb88273ed6fcd28a55cf51d0ff9cd627b92c75",
+      "history/template-baseline-2026-11-01/AGENTS.md": "7067aa371746c5fd69348e74f063f5d459782cb2c36a0ceb467fc81120230bc4",
+      "history/template-baseline-2026-11-01/AMRKB_Machine_Reference.schema.json": "11a5564f0e78820be2ad5c8a24e563bc3e740042ac2eb7dfbf454f92e15a65fc",
+      "history/template-baseline-2026-11-01/scripts/validate_amrkb.py": "c519b88185fc5e646fe0ac02f1e4cbe3adec95ad05f3ec4fa443f0fdbe3cf9c1"
+    }
+  },
+  "limitations": [
+    "Recovery verifies bytes, not authentic message metadata, transcript completeness, original creation dates, scientific truth or historical approval.",
+    "Current additions do not expand the existing extraction or imply new acceptance decisions.",
+    "No MSP adoption, pilot, source enrichment, publication or external-service work."
+  ]
+}

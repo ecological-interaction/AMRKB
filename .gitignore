@@ -1,2 +1,6 @@
 .DS_Store
 ~$*.xlsx
+
+# Local validation artefacts
+__pycache__/
+*.py[cod]

@@ -1,0 +1,100 @@
+{
+  "document_title": "AMRKB edition-comparison ledger",
+  "ledger_version": "0.1.0",
+  "prepared": "2026-11-01",
+  "source_edition_id": "AMRKB-SRCED-0001",
+  "target_edition_id": "AMRKB-SRCED-0002",
+  "status": "comparison_only_no_scientific_intake",
+  "algorithm": "Exact splitlines comparison, SequenceMatcher(autojunk=False): equal 1–206; insert current 207–352; equal earlier 207–247/current 353–393. Insert subdivided by documentary function.",
+  "altered_or_deleted_earlier_passages": 0,
+  "new_scientific_records": 0,
+  "entries": [
+    {
+      "id": "AMRKB-EDCMP-0001",
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "target_edition_id": "AMRKB-SRCED-0002",
+      "source_line_start": 1,
+      "source_line_end": 206,
+      "target_line_start": 1,
+      "target_line_end": 206,
+      "comparison": "unchanged",
+      "disposition": "already_represented",
+      "supporting_extraction_references": [
+        "AMRKB-AUD-0001–0013"
+      ],
+      "note": "Exact unchanged prefix; extraction dispositions remain attached to the earlier edition.",
+      "target_text_sha256": "d3c7d6a8b25b8da0a9b6af2fc64967fef6e046a038f2b44cda0b7e2ffd07aebb",
+      "source_text_sha256": "d3c7d6a8b25b8da0a9b6af2fc64967fef6e046a038f2b44cda0b7e2ffd07aebb"
+    },
+    {
+      "id": "AMRKB-EDCMP-0002",
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "target_edition_id": "AMRKB-SRCED-0002",
+      "source_line_start": 198,
+      "source_line_end": 205,
+      "target_line_start": 207,
+      "target_line_end": 214,
+      "comparison": "repeated",
+      "disposition": "repeated_contextual",
+      "supporting_extraction_references": [
+        "AMRKB-AUD-0013"
+      ],
+      "note": "Exact repetition of the scope/next-step passage; not an additional acceptance event.",
+      "target_text_sha256": "c934d7a37c35c441206ebf5be55488bc46d902268e84a341f9251cb0915d523f",
+      "source_text_sha256": "c934d7a37c35c441206ebf5be55488bc46d902268e84a341f9251cb0915d523f"
+    },
+    {
+      "id": "AMRKB-EDCMP-0003",
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "target_edition_id": "AMRKB-SRCED-0002",
+      "source_line_start": null,
+      "source_line_end": null,
+      "target_line_start": 215,
+      "target_line_end": 350,
+      "comparison": "added",
+      "disposition": "repeated_contextual",
+      "supporting_extraction_references": [
+        "AMRKB-AUD-0013"
+      ],
+      "note": "Formatting, greetings, opening dialogue and a request for recap; no new scientific assertions extracted or new user decisions issued.",
+      "target_text_sha256": "6bf5ef082f228327940e574fbf8aef75cedb5c50e709d330b41472e92ea9c8f3",
+      "source_text_sha256": null
+    },
+    {
+      "id": "AMRKB-EDCMP-0004",
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "target_edition_id": "AMRKB-SRCED-0002",
+      "source_line_start": null,
+      "source_line_end": null,
+      "target_line_start": 351,
+      "target_line_end": 352,
+      "comparison": "added",
+      "disposition": "already_represented_with_historical_claim_unresolved",
+      "supporting_extraction_references": [
+        "AMRKB-CLS-0001–0027",
+        "AMRKB-DEC-0001",
+        "AMRKB-AUD-0001–0013"
+      ],
+      "note": "Assistant-style recap of scope, independence, families and functions. Topics already represented; its retrospective claim of agreement is not independently authenticated or promoted to approval.",
+      "target_text_sha256": "afd3fd63bd2f615f8294fc63b22cae3f81d628ef41e100a8a1becea094a840e5",
+      "source_text_sha256": null
+    },
+    {
+      "id": "AMRKB-EDCMP-0005",
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "target_edition_id": "AMRKB-SRCED-0002",
+      "source_line_start": 207,
+      "source_line_end": 247,
+      "target_line_start": 353,
+      "target_line_end": 393,
+      "comparison": "moved",
+      "disposition": "already_represented",
+      "supporting_extraction_references": [
+        "AMRKB-AUD-0014–0023"
+      ],
+      "note": "Exact unchanged suffix shifted by 146 lines; original extraction locators remain on the recovered earlier edition.",
+      "target_text_sha256": "71b9150f15052a98f7cf096534260900174547a3c4d2293f19c3789c13873d75",
+      "source_text_sha256": "71b9150f15052a98f7cf096534260900174547a3c4d2293f19c3789c13873d75"
+    }
+  ]
+}

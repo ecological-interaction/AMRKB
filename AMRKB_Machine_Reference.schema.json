@@ -1,0 +1,527 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AMRKB documentary extraction envelope 0.2.0 — local draft, not DRM certification",
+  "type": "object",
+  "required": [
+    "$schema",
+    "metadata",
+    "records",
+    "classifications",
+    "memberships",
+    "relationships",
+    "references",
+    "provenance",
+    "themes",
+    "applications",
+    "decisions",
+    "source_audit"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "AMRKB_Machine_Reference.schema.json"
+    },
+    "metadata": {
+      "type": "object",
+      "required": [
+        "document_version",
+        "schema_version",
+        "status",
+        "source_document",
+        "record_count",
+        "counts",
+        "attribution",
+        "identifier_policy",
+        "classification_policy"
+      ],
+      "properties": {
+        "document_version": {
+          "enum": [
+            "0.2.0",
+            "0.2.1"
+          ]
+        },
+        "schema_version": {
+          "const": "amrkb.source-extraction/0.2.0"
+        },
+        "status": {
+          "const": "source_extracted_candidates_pending_review"
+        },
+        "record_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "counts": {
+          "type": "object"
+        },
+        "source_document": {
+          "type": "object",
+          "required": [
+            "path",
+            "sha256",
+            "line_count",
+            "limitations"
+          ],
+          "properties": {
+            "sha256": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            "line_count": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "limitations": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "record_type",
+          "occurrences",
+          "candidate_entity_types",
+          "project_status",
+          "scientific_verification",
+          "provenance_ids"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^AMRKB-REC-[0-9]{4,}$"
+          },
+          "label": {
+            "type": "string"
+          },
+          "record_type": {
+            "type": "string"
+          },
+          "occurrences": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "provenance_id",
+                "original_term",
+                "contextual_type",
+                "project_status"
+              ]
+            }
+          },
+          "candidate_entity_types": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "project_status": {
+            "type": "string"
+          },
+          "scientific_verification": {
+            "const": "not_independently_verified"
+          },
+          "provenance_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "classifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "classification_kind",
+          "description",
+          "project_status",
+          "scientific_verification",
+          "provenance_ids"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^AMRKB-CLS-[0-9]{4,}$"
+          },
+          "label": {
+            "type": "string"
+          },
+          "classification_kind": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "project_status": {
+            "type": "string"
+          },
+          "scientific_verification": {
+            "const": "not_independently_verified"
+          },
+          "provenance_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "memberships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "record_id",
+          "classification_id",
+          "project_status",
+          "scientific_verification",
+          "provenance_ids"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^AMRKB-MEM-[0-9]{4,}$"
+          },
+          "record_id": {
+            "type": "string"
+          },
+          "classification_id": {
+            "type": "string"
+          },
+          "project_status": {
+            "type": "string"
+          },
+          "scientific_verification": {
+            "const": "not_independently_verified"
+          },
+          "provenance_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "source_id",
+          "target_id",
+          "relationship_type",
+          "project_status",
+          "scientific_verification",
+          "provenance_ids"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^AMRKB-REL-[0-9]{4,}$"
+          },
+          "source_id": {
+            "type": "string"
+          },
+          "target_id": {
+            "type": "string"
+          },
+          "relationship_type": {
+            "type": "string"
+          },
+          "project_status": {
+            "type": "string"
+          },
+          "scientific_verification": {
+            "const": "not_independently_verified"
+          },
+          "provenance_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "reference_kind",
+          "bibliographic_status",
+          "candidate_record_id",
+          "scientific_verification",
+          "provenance_ids"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^AMRKB-REF-[0-9]{4,}$"
+          },
+          "label": {
+            "type": "string"
+          },
+          "reference_kind": {
+            "type": "string"
+          },
+          "bibliographic_status": {
+            "type": "string"
+          },
+          "candidate_record_id": {
+            "type": "string"
+          },
+          "scientific_verification": {
+            "const": "not_independently_verified"
+          },
+          "provenance_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "provenance": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "source_document",
+          "source_sha256",
+          "line_start",
+          "line_end",
+          "original_text",
+          "speaker_status",
+          "scientific_verification"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^AMRKB-PRO-[0-9]{4,}$"
+          },
+          "source_document": {
+            "type": "string"
+          },
+          "source_sha256": {
+            "type": "string"
+          },
+          "line_start": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "line_end": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "original_text": {
+            "type": "string"
+          },
+          "speaker_status": {
+            "type": "string"
+          },
+          "scientific_verification": {
+            "const": "not_independently_verified"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "themes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "description",
+          "project_status",
+          "scientific_verification",
+          "provenance_ids"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^AMRKB-THM-[0-9]{4,}$"
+          },
+          "label": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "project_status": {
+            "type": "string"
+          },
+          "scientific_verification": {
+            "const": "not_independently_verified"
+          },
+          "provenance_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "applications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "description",
+          "project_status",
+          "scientific_verification",
+          "provenance_ids"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^AMRKB-APP-[0-9]{4,}$"
+          },
+          "label": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "project_status": {
+            "type": "string"
+          },
+          "scientific_verification": {
+            "const": "not_independently_verified"
+          },
+          "provenance_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "label",
+          "description",
+          "project_status",
+          "scientific_verification",
+          "provenance_ids"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^AMRKB-DEC-[0-9]{4,}$"
+          },
+          "label": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "project_status": {
+            "type": "string"
+          },
+          "scientific_verification": {
+            "const": "not_independently_verified"
+          },
+          "provenance_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "source_audit": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "line_start",
+          "line_end",
+          "disposition",
+          "destination",
+          "provenance_id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^AMRKB-AUD-[0-9]{4,}$"
+          },
+          "title": {
+            "type": "string"
+          },
+          "line_start": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "line_end": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "disposition": {
+            "type": "string"
+          },
+          "destination": {
+            "type": "string"
+          },
+          "provenance_id": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}
