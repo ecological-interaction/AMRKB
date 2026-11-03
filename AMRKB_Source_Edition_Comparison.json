@@ -56,7 +56,7 @@
       "supporting_extraction_references": [
         "AMRKB-AUD-0013"
       ],
-      "note": "Formatting, greetings, opening dialogue and a request for recap; no new scientific assertions extracted or new user decisions issued.",
+      "note": "Formatting, greetings, opening dialogue and a request for recap; no new scientific assertions extracted or new project decisions issued.",
       "target_text_sha256": "6bf5ef082f228327940e574fbf8aef75cedb5c50e709d330b41472e92ea9c8f3",
       "source_text_sha256": null
     },
@@ -75,7 +75,7 @@
         "AMRKB-DEC-0001",
         "AMRKB-AUD-0001–0013"
       ],
-      "note": "Assistant-style recap of scope, independence, families and functions. Topics already represented; its retrospective claim of agreement is not independently authenticated or promoted to approval.",
+      "note": "Source recap of scope, independence, families and functions. Topics already represented; its retrospective claim of agreement is not independently authenticated or promoted to approval.",
       "target_text_sha256": "afd3fd63bd2f615f8294fc63b22cae3f81d628ef41e100a8a1becea094a840e5",
       "source_text_sha256": null
     },

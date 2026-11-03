@@ -1,7 +1,7 @@
 # Agricultural Modes Reference Knowledge Base (AMRKB)
 
 **Work in Progress — Academic Research Resource**
-**Document version:** 0.3.2 · Local extraction awaiting review; not a research release.
+**Document version:** 0.3.3 · Local extraction awaiting review; not a research release.
 
 Jonathan Minchin · Ecological Interaction · [ORCID 0000-0001-8152-1796](https://orcid.org/0000-0001-8152-1796).
 
@@ -18,7 +18,7 @@ Keep modes, systems, methods, practices, technologies, ecological mechanisms and
 
 - [Scientific Reference Register](AMRKB_Scientific_Reference_Register.md): definitions, eight overlapping working families, functional inventories, contexts, qualifications, themes and incomplete source candidates.
 - [Machine Reference](AMRKB_Machine_Reference.json): the sole structured authority for this source extraction, with separate identities, classifications, memberships, assertions, references and line-level provenance.
-- [Research Protocol](AMRKB_Research_Protocol.md): decisions, coverage crosswalk, identity/schema rules and limitations. Both the [recovered extraction edition](history/20261101_AMRKB_Chat_History_Extraction_Edition.md) and [current history](history/20261101_AMRKB_Chat_History.md) are preserved unchanged. See the [source-edition reconciliation](AMRKB_Source_Edition_Reconciliation.md).
+- [Research Protocol](AMRKB_Research_Protocol.md): methods, identity, evidence and review limits. The [source-edition manifest](AMRKB_Source_Editions.json) identifies immutable archival evidence and its public fingerprints.
 - [Citation](CITATION.cff) and [changelog](CHANGELOG.md): attribution and actual development history, not a release or licence.
 
 The 247-line extraction edition yields **292 documentary candidate entries**
@@ -28,16 +28,17 @@ There are 222 proposed family associations, counted separately from unique
 entries; not every entry has a family. No scientific claim or named-source
 identity is independently verified by this intake.
 
-On 2 November 2026 the owner confirmed that both incomplete documentary editions
-originate from the normal “AMRKB Overview” research conversation. This confirms
-origin only, not authenticated message metadata, speakers, original dates or
-conversation completeness. The 247-line edition supports the recorded extraction;
-the 393-line edition was separately compared, not fully scientifically extracted.
+The register derives from a preserved, incomplete documentary research edition.
+Its 247 lines support the recorded extraction. A distinct 393-line later edition
+was compared separately, not fully scientifically extracted. Original dates,
+source-role assignments and completeness remain unverified. Exact source evidence
+is held archivally; the public register retains edition IDs, line locators and
+quotation fingerprints.
 
 Detailed family-1 and family-2 inventories are unavailable; detailed family-8
 expansion is deferred/unavailable. Bibliography remains incomplete; five
 methodological groups are unnamed and certification placement is unresolved.
-ICARUS and ICARUS DDAL remain separate pending evidence. AgriFM and AgroGPT are
+ICAERUS and ICAERUS DDAL remain separate pending evidence. AgriFM and AgroGPT are
 retained despite later omission. Lexical variants and mixed entity types remain
 unresolved; the Precision/Computational repeat request does not establish
 approval. Scientific and field-evidence verification remains outstanding.
@@ -64,15 +65,19 @@ candidate. DRM records the bounded Phase 4 documentary pilots as completed
 and closed. This AMRKB update does not constitute scientific verification,
 general MSP conformance or authorisation for Phase 5.
 
-Run `python3 -B scripts/validate_amrkb.py`; optional installed `jsonschema`
-validates the local extraction schema. The validator checks source preservation,
-coverage, IDs, references, counts and exact human/structured presentation parity,
-not scientific truth. `--render-scientific` explicitly regenerates the human
-presentation from the structured authority; it is not a research acceptance step.
+Run `python3 -B scripts/validate_amrkb.py` for public structural, preservation-profile,
+presentation and link checks. Optional installed `jsonschema` validates the local
+serialization schema. Full source checks additionally require an explicitly supplied
+Archive root; preserved development-baseline checks require a Development root.
+Unavailable private evidence is reported as not checked, never as a source-validation pass.
+See the [protocol](AMRKB_Research_Protocol.md#validation-versioning-and-next-decisions).
 
-This Stage B update is documentation and metadata maintenance only. Stage C
-visual review and owner acceptance remain pending. Further steps require explicit
-review of identity, source-level bibliography and scientific evidence before
-verification, taxonomy redesign, harmonisation or publication. No external
-literature was researched. No licence, DOI, public repository URL or release
-is assigned. Public access and citation do not grant reuse permission.
+**Review remains pending:** Stage C visual review and owner acceptance have not been
+completed. This incomplete candidate catalogue remains a Work in Progress; no new
+scientific verification, identity merge, literature intake or publication is implied.
+The owner-approved current spelling is ICAERUS; the two existing candidate IDs remain
+distinct, and original source spellings remain preserved as evidence.
+
+No licence, DOI, verified public repository URL or research release is assigned.
+Public accessibility and citation do not grant reuse permission. Website publication
+requires separate approval and a pinned-source import; no website is configured here.

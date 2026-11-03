@@ -1,83 +1,48 @@
 # AMRKB — Research Protocol
 
-**Document version:** 0.2.2 · Source extraction pending local review.  
+**Document version:** 0.2.3 · Incomplete candidate catalogue pending local review.
 **Work in Progress — Academic Research Resource**
 
-## Stage B maintenance authority — 2 November 2026
+## Authority, scope and archival provenance
 
-The owner approved bounded documentation and metadata maintenance only. Machine
-JSON remains the structured authority; the Scientific Register is generated from
-it, and README summarises reviewed content. No collection payload, identifier,
-label, status, classification, relationship, quotation or locator changes.
-No new extraction, scientific verification, identity merge, acceptance event,
-literature, mapping or taxonomy redesign is authorised. Stage C visual review
-and owner acceptance of this maintenance remain pending; Stage D is not started.
+AMRKB retains the name Agricultural Modes Reference Knowledge Base. Machine JSON
+owns structured records; the Scientific Register is its generated human presentation.
+Modes, systems, methods, practices, technologies, ecological mechanisms and indicators
+remain distinct candidate representations, not a compulsory scientific hierarchy.
+The scope covers historical, geographical, ecological and socioeconomic research.
+The catalogue is incomplete and scientifically unverified; project relevance is not
+scientific acceptance. Stage C visual review and owner acceptance remain pending.
 
-The owner confirmed on 2 November 2026 that both preserved incomplete editions
-originate from the normal “AMRKB Overview” research conversation. Owner origin
-confirmation does not authenticate source-message metadata, speaker assignments,
-original dates or conversation completeness. Accounting for 247 extraction lines
-and comparing 393 current-edition lines are different evidence operations; the
-latter does not establish scientific extraction of all 393 lines.
+The [source-edition manifest](AMRKB_Source_Editions.json) preserves edition IDs,
+SHA-256 fingerprints, exact byte counts and line counts. The 247-line extraction
+edition supports all 88 provenance entries and 23 extraction-audit spans. The
+393-line later edition contains a 146-line insertion of repeated scope and contextual
+material; it was compared, not newly scientifically extracted. The
+[comparison ledger](AMRKB_Source_Edition_Comparison.json) preserves the correspondence.
+Original source dates, role assignments and completeness remain unverified.
 
-DRM-MSP 0.1.0 review revision 2 remains an unadopted methodological candidate.
-Current DRM development status records the bounded Phase 4 documentary pilots as
-completed and closed, with their scientific/rights/identity limits retained.
-This maintenance update neither reruns those pilots nor establishes general MSP
-conformance, scientific validity or authorisation for Phase 5. Older pre-pilot
-and empty-template statements below describe their historical development stages.
-
-## Current authority and preservation
-
-Machine JSON is the sole structured authority for the documentary extraction;
-the Scientific Register is its reproducible human presentation. Source-supported
-candidate inclusion is not scientific acceptance. No existing accepted content or
-issued research IDs were overwritten: the preceding templates had empty arrays
-and an explicitly pending identifier convention. Their exact files, schema,
-validator and documentation are retained in
-[the hashed template baseline](history/template-baseline-2026-11-01/SNAPSHOT.json).
-The original README remains verbatim below. Unrelated local work, original
-history and all Git metadata are preserved.
-
-## Source identification, coverage and chronology
-
-The extraction source is [the recovered 247-line edition](history/20261101_AMRKB_Chat_History_Extraction_Edition.md),
-local edition `AMRKB-SRCED-0001`, SHA-256
-`1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf`.
-It was recovered exactly on 1 November 2026 from `AMRKB-PRO-0088.original_text`;
-its last line has no terminating newline. All provenance and audit L locators
-refer to this edition, not the longer current history.
-
-The [current 393-line history](history/20261101_AMRKB_Chat_History.md),
-`AMRKB-SRCED-0002`, remains unchanged at SHA-256
-`333c42970b7d4268aca8a848fef633bcf7b215a0179ec74fa8fd40b15ca98bf7`.
-It adds 146 lines of repeated scope, opening dialogue and a recap. The
-[comparison ledger](AMRKB_Source_Edition_Comparison.json) accounts for every current
-line without claiming those additions were scientifically extracted. See the
-[edition manifest](AMRKB_Source_Editions.json) and
-[reconciliation report](AMRKB_Source_Edition_Reconciliation.md).
-
-The filename date is not a verified conversation/message or original creation
-date. Heading: “Agricultural Modes and Methods”. Both editions mix structured
-proposals and unlabelled dialogue; speaker assignments remain inferred. Neither
-is authenticated as a complete message export. Detailed families 1/2, a full
-family-8 expansion, attachments, prior sources and a finished bibliography remain
-unavailable. The recap's retrospective agreement claims add no acceptance event.
-No missing research was reconstructed and no literature/conversation retrieved.
+Exact editions are immutable in Archive. Raw quotations, prior metadata, historical
+instructions and execution reports are preserved in Development. Public provenance
+retains source-edition IDs, line ranges and quotation SHA-256 fingerprints. Moving
+an evidence locator does not authorise changing an edition, source spelling or hash.
+The public validator does not claim to have checked unavailable private sources.
 
 ## Source-to-destination audit crosswalk
 
-Each span is represented with exact source text in JSON provenance and an audit
-disposition; all 247 extraction-edition lines are accounted for, including formatting/UI
-artefacts. Dispositions preserve later revisions without treating proposals as
-facts. The scientific register carries the relevant explanatory content; raw
-conversation wording and uncertainty remain attributable in source/provenance.
+Each span is represented in public JSON provenance by its source-edition identity,
+line range and exact quotation SHA-256 fingerprint, together with an audit disposition.
+All 247 extraction-edition lines are accounted for, including formatting/UI artefacts.
+Exact source editions remain immutable in Archive; original quotations and prior
+representations are preserved in Development. Dispositions preserve later revisions
+without treating proposals as facts. The Scientific Register presents the relevant
+research content and its qualifications; full source verification requires the
+explicitly supplied archival evidence.
 
 | Source lines | Substantive section | Treatment and destination |
 |---|---|---|
 | 1–5 | Research remit and distinctions | candidate definitions; records; protocol |
 | 6–17 | Proposed entity definitions and examples | provisional definitions, not adopted taxonomy; classifications; memberships; scientific definitions |
-| 18–31 | Eight overlapping families | assistant-proposed working families, no exclusive taxonomy; classifications; memberships |
+| 18–31 | Eight overlapping families | source-proposed working families, no exclusive taxonomy; classifications; memberships |
 | 32–50 | Twelve functional categories | cross-family functional proposal; classifications; memberships |
 | 51–68 | Mechanism-indicator-outcome chain and worked examples | illustrative hypotheses, not evidenced causal claims; applications; relationships; scientific explanations |
 | 69–80 | AMMI proposal and database relationships | AMMI superseded by later user AMRKB naming; scope retained; protocol; applications; source context |
@@ -95,7 +60,7 @@ conversation wording and uncertainty remain attributable in source/provenance.
 | 221–223 | Precision/Computational methodology inventory | user requests progress; methods not products; records; groups; memberships |
 | 224–226 | Request to repeat and offered branch | repeat request not answered verbatim; precision understanding not assume-confirmed; family 8 deferred; decisions; audit limitations |
 | 227–234 | Open technology, AI/LLMs and reference request | explicit user relevance; no actual bibliography supplied; themes; candidate terms |
-| 235–240 | Cross-cutting applications and five domains | exploration approved; assistant domains not adopted scientific classification; themes; applications |
+| 235–240 | Cross-cutting applications and five domains | exploration approved; source-proposed domains not adopted scientific classification; themes; applications |
 | 241–246 | Reference-inventory scope and user agreement | candidate inventory approved for exploration; future verification promised not performed; records; incomplete references; decisions |
 | 247–247 | Final narrowed list and stop before source audit | ten named terms; omissions not explicit rejection; five groups unnamed; references; unresolved decisions |
 
@@ -121,7 +86,7 @@ with a repetition. Family 8 detail is deferred when the user selects cross-cutti
 research. Certification placement, a requested unnamed set of five methodological
 groups and possible synonymous labels remain unresolved. No explicit rejection
 of AgriFM or AgroGPT occurs: retain them despite omission from the final list.
-ICARUS DDAL and ICARUS are separate pending identity evidence.
+ICAERUS DDAL and ICAERUS are separate pending identity evidence.
 
 The five cross-cutting domains are not new agricultural families. Four AI terms
 (analytical ML, LLM-based systems, knowledge graphs, agent-based tools) do not
@@ -142,13 +107,18 @@ Exact case/whitespace variants share a lexical entry; similar or differently
 spelled labels are not silently merged. These are candidate lexical identities,
 not proof of unique real-world entities. Type uncertainty is explicitly retained.
 
-The original extraction introduced Machine document 0.2.0 and local schema `amrkb.source-extraction/0.2.0` replace
-only the preserved empty-template constraint. Existing records, classifications,
-relationships, references and provenance collections remain; separate memberships,
-themes, applications, decisions and source_audit arrays are justified by the
-actual source distinctions. Metadata includes source identity, counts and limits.
-No mandatory agricultural taxonomy, engine, input service or connector is added.
-These schema-extension statements record the earlier extraction, not a new Stage B schema change.
+The original extraction introduced Machine document 0.2.0 and local schema
+`amrkb.source-extraction/0.2.0`, replacing the preceding empty-template constraints.
+It retained records, classifications, relationships, references and provenance as
+separate collections, and added memberships, themes, applications, decisions and
+source_audit arrays to represent distinctions in the supplied source. Metadata
+recorded source identity, counts and limitations. No mandatory agricultural taxonomy,
+database engine, ingestion service or connector was introduced.
+
+This paragraph describes the historical extraction format. The current local
+serialization schema is `amrkb.source-extraction/0.3.0`; its incompatible public
+provenance representation and independent versioning are described below under
+[Validation, versioning and next decisions](#validation-versioning-and-next-decisions).
 
 Classification definitions and memberships are distinct. Relationships have
 local typed endpoints, project status and provenance; no external record IDs,
@@ -177,97 +147,60 @@ This source illustrates overlap, mixed entity granularity, contested scientific
 inferences, regional/historical context and candidate evidence—not a universal
 classification imposed by infrastructure.
 
-## Neighbouring architecture comparison — preserved template-stage assessment
+## Independent neighbouring authorities
 
-
-Historical template-stage comparison, retained from 1 November 2026; the
-following empty-template assessments are superseded by the populated extraction
-and current authority above, not present-state claims:
-
-| Repository | Current authority and file arrangement | Reusable convention / boundary |
-|---|---|---|
-| EIRKB | Machine JSON and local serialization schema; scientific register; Research Protocol; authored A01–A03 analysis; preservation crosswalk and legacy workbooks; compatibility Master index. | Separate structured authority, authored prose, method and history. Its HA/IL/IM constructs, record counts and legacy IDs are EIRKB-specific. |
-| EII | Machine JSON/schema; scientific tables and compact README; Research Protocol; preservation crosswalk; Markdown machine compatibility index; curated remote-sensing view. | Stable identity, explicit human/structured roles and lossless history. Its 15-domain taxonomy, indicators and fixed-count migration checks are not AMRKB rules. |
-| GISDS | GISDS.md is a continuous seven-column 25-resource source table; compact README; RESEARCH_NOTES.md carries metadata guidance and provenance. No separate machine JSON/schema. | Keep the entry point concise and method/provenance outside dense tables. Its provider/resource/dataset distinctions and source IDs are not agricultural classifications. |
-| OSDS | Scientific register plus authoritative machine JSON fences in Markdown; README and research notes; 62 candidate sources and separately qualified discovery evidence. | State container format, evidence and verification limits. Its observation categories, domain codes and source-ID convention are not copied. |
-
-CFF 1.2.0 attribution, unreleased change histories, local links, stable filenames
-and independently versioned documents/schemas recur. No single neighbour layout
-is a mandatory federation template. EIRKB/EII protocols consolidate methodology;
-GISDS/OSDS research notes hold usage/provenance details. AMRKB needs one protocol
-now, not both overlapping notes and a protocol. The schema and validator serve
-only this empty-template boundary; populated neighbours' historical preservation
-crosswalks are unnecessary because AMRKB has no migrated research corpus.
-
-Neighbour diagrams use editable Mermaid sources, generated SVG and reproducible
-Python rendering, with shared palette/typography and conceptual caveats. No
-diagram is created for this empty template: short file-role links communicate
-the present architecture without implying a populated agricultural taxonomy or
-operational federation. If later justified, adopt editable source, accessible
-SVG and deterministic generation together; do not copy research categories.
-
+EIRKB and EII retain their own structured references and scientific presentations.
+GISDS retains its geographic-source catalogue; OSDS retains its observation-source
+register. Their records, classifications and counts are not AMRKB requirements.
+DRM develops methodology and governance; IRKB owns independent interdisciplinary
+synthesis. No operational mappings, shared taxonomy or automatic ingestion is implied.
 
 ## Validation, versioning and next decisions
 
-Run `python3 -B scripts/validate_amrkb.py`; installed jsonschema adds full
-Draft 2020-12 schema checking. The standard-library checks cover current envelope,
-unique IDs, endpoint/reference resolution, source hashes/quotes and complete
-ordered audit coverage, counts, no invented scientific verification, baseline
-preservation, document links and deterministic Scientific Register parity.
-`--render-scientific` explicitly regenerates the presentation, not acceptance.
-No live service is contacted and the validator cannot establish scientific truth,
-legal rights, genuine identity or authentic reviewer authority.
+Public validation:
 
-README 0.3.2 and Protocol 0.2.2 are document revisions. Machine document and
-generated Scientific Register remain 0.2.1 with dated maintenance revision
-`2026-11-02-stage-b`; the unchanged schema only permits document versions 0.2.0
-and 0.2.1. Local schema identity remains `amrkb.source-extraction/0.2.0`. These
-labels distinguish document/container maintenance from schema changes and
-research releases; none is a scientific acceptance event.
-Citation remains Jonathan Minchin, Ecological Interaction, the supplied ORCID;
-no licence, DOI, publication or release date is assigned.
+```sh
+python3 -B scripts/validate_amrkb.py
+python3 -B -m unittest discover -s tests -v
+```
 
-Stop after local review. Further authority is required for missing-source recovery,
-source-level identity/bibliography audit, scientific verification, taxonomy redesign,
-external mappings, DRM harmonisation, source ingestion services or publication.
-No database acceptance/reviewer events or permission grants were fabricated.
+Full evidence verification uses explicitly supplied workspace roots:
 
-## Historical README — preserved original scope and intentions
+```sh
+python3 -B scripts/validate_amrkb.py --evidence-root <archive-root> --development-root <development-root>
+```
 
-The following exact original README is historical evidence. Current authority
-and intake rules above supersede only outdated file-role/status statements.
-Academic scope, chronology and methodological intentions are preserved.
+The Archive root resolves the manifest's portable source-edition paths. The
+Development root resolves preserved pre-edit evidence and the template snapshot.
+The public mode checks current structure, unique IDs, endpoints, counts, quotation
+fingerprint syntax, extraction/comparison accounting, the reviewed preservation
+projection, human parity and local file/heading links. Full mode additionally
+checks exact archived bytes, quotation slices, original terms, ledger correspondence,
+historical template hashes, the original scope README and pre-edit collections.
+Missing evidence is an explicit unavailable-input failure in full mode, not a pass.
+Neither mode proves scientific truth, genuine authority, historical completeness,
+legal permission, or DRM conformance. Optional `jsonschema` checks serialization.
+`--render-scientific` deliberately regenerates presentation; it is not acceptance.
 
-<!-- BEGIN PRESERVED ORIGINAL README -->
-# Agricultural Modes Reference Knowledge Base (AMRKB)
+README 0.3.3, Protocol 0.2.3, Machine/Scientific 0.3.0 and serialization schema 0.3.0
+are independent documentary editions, not research releases. The schema revision
+is an incompatible local serialization revision: it replaces public raw quotations
+with archival locators and fingerprints. Earlier documents require deliberate migration,
+not automatic upgrade or validation under the new schema. This revision does not
+adopt a new ontology or MSP format. Original structured project statuses retain
+their values and meanings; neutral display labels are recorded in Machine metadata.
 
-**Status:** Stage A — scope and architecture; pre-implementation.  
-**Document version:** 0.1.0  
-**Created:** 2026-10-12
+The current display spelling is ICAERUS DDAL and ICAERUS. Existing REC-0286/0287
+and REF-0012/0013 remain distinct; original terms and archival editions retain their
+historical spelling. This correction establishes no identity equivalence. No family,
+membership, relationship, reference candidate or scientific status was added or removed.
 
-## Purpose and scope
+The exact original README and complete pre-edit evidence are preserved in Development;
+the source manifest records the original README fingerprint. Old Git commits remain
+accessible, including their historical source content; current redistribution does
+not remove material from Git history. No history rewriting is performed.
 
-AMRKB is an independent research project within Ecological Information, covering agricultural history, modes, systems, methods, practices and technologies. It includes traditional, Indigenous, industrial, ecological, experimental and emerging approaches across historical periods and geographical regions. Its classifications remain provisional.
-
-Research dimensions include historical development and diffusion; philosophies and traditions; technical methods and infrastructure; relationships with soil, water, biodiversity and ecological processes; climate, terrain and place-specific suitability; and labour, land tenure and productive organisation.
-
-Keep modes, systems, methods, practices, technologies, ecological mechanisms and indicators distinct, and record explicit relationships between them.
-
-## Relationship to other projects
-
-EIRKB provides ecological literature, concepts and theoretical research. EII inventories ecological variables and indicators. AMRKB develops agricultural knowledge independently while preparing for compatible identifiers, reference metadata, place information and cross-project relationships. Shared conventions do not require identical schemas.
-
-## Planned architecture and development
-
-1. Define scope, entities, classifications and relationships in Markdown.
-2. Build a referenced inventory of agricultural approaches, practices and technologies.
-3. Implement a SQLite database after the conceptual framework is sufficiently developed.
-
-The intended framework includes persistent identifiers, Zotero interoperability, GIS compatibility, machine-readable exports such as CSV and JSON, and future knowledge graph compatibility. No database or validated classification is implemented yet.
-
-## Local maintenance and provenance
-
-Open this directory as the project workspace. Keep version notes inside documents and preserve revisions in Git. No remote repository is configured.
-
-This initial scope summarises the “Agricultural Classification Proposal” conversation of 10 October 2026 and the repository organisation proposed in “Ecological Information Overview” on 12 October 2026.
-<!-- END PRESERVED ORIGINAL README -->
+Jonathan Minchin, Ecological Interaction, ORCID 0000-0001-8152-1796 remain attributed.
+No licence, DOI, release date or publication permission is assigned. Further research,
+identity resolution, source-level bibliography, harmonisation, diagrams, website
+integration and publication require separately scoped approval.

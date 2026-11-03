@@ -5,6 +5,15 @@ Document and schema versions are distinct from research-database releases.
 
 ## [Unreleased]
 
+### Publication presentation and ADDG preparation — 3 November 2026
+
+- Retained the project name Agricultural Modes Reference Knowledge Base and the incomplete WIP catalogue; Stage C visual review and owner acceptance remain pending.
+- Preserved exact source editions in Archive; moved the historical template snapshot and reconciliation report to Development. Preserved pre-edit documents and raw quotation evidence there before public cleanup.
+- Replaced public raw quotations with edition locators, line ranges and exact quotation fingerprints. Kept original project status values; added neutral human-readable display labels.
+- Corrected current labels to ICAERUS DDAL and ICAERUS without merging or renumbering existing candidates; original source terms, quotations and historic versions remain preserved.
+- Separated public structural/presentation validation from explicitly requested Archive/Development checks, with preservation projections and regression coverage. Recorded the incompatible public provenance serialization as local schema/Machine/Scientific 0.3.0, not a compatible patch or research release; no scientific intake, verification, licence, DOI, acceptance or publication.
+- Earlier dated execution statements below describe their historical stages, not current Git or DRM status.
+
 ### Stage B documentation and metadata maintenance — 2 November 2026
 
 - Stage C navigation correction: fixed README cross-family destinations to

@@ -4,8 +4,8 @@
     "title": "Agricultural Modes Reference Knowledge Base (AMRKB)",
     "repository_identity": "AMRKB",
     "purpose": "Agricultural history, modes, systems, methods, practices and technologies within Ecological Information.",
-    "document_version": "0.2.1",
-    "schema_version": "amrkb.source-extraction/0.2.0",
+    "document_version": "0.3.0",
+    "schema_version": "amrkb.source-extraction/0.3.0",
     "status": "source_extracted_candidates_pending_review",
     "academic_status": "Work in Progress — Academic Research Resource",
     "record_count": 292,
@@ -36,49 +36,31 @@
       "empty_collections": "An empty collection means no content is recorded in that collection. It does not establish confirmed absence, scientific acceptance or that this populated register is an empty template."
     },
     "rights": "No repository licence selected; citation metadata and public access do not grant reuse permission.",
-    "scope_boundary": "Local documentary extraction and owner-approved Stage B documentation/metadata maintenance only; no new scientific intake, scientific verification, publication or DRM phase advancement.",
+    "scope_boundary": "Incomplete documentary candidate catalogue retained for WIP review; editorial presentation and ADDG redistribution do not establish scientific acceptance or publication approval.",
     "source_document": {
-      "path": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "path": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "title_as_written": "Agricultural Modes and Methods",
-      "conversation_title": "AMRKB Overview",
-      "available_dates": [
-        "2026-11-01 occurs in the filename; it is not a verified message date."
-      ],
-      "line_count": 247,
-      "format": "Mixture of structured assistant-style proposals and unlabelled dialogue; speaker attribution inferred from wording and alternation, not authenticated message metadata.",
-      "coverage": "All 247 extraction-edition lines are accounted for; all 393 current-edition lines are separately compared. The comparison is not scientific extraction of all 393 lines; original conversation completeness remains unknown.",
-      "limitations": [
-        "Detailed methodology inventories for families 1 and 2 are referenced at line 208 but absent.",
-        "Family 8 has initial example entries but no later detailed methodology inventory.",
-        "No message IDs, per-message dates, publication details or source URLs are present.",
-        "Five methodological groups are mentioned at line 247 without five named group definitions; do not substitute the five cross-cutting domains.",
-        "The later candidate list omits AgriFM and AgroGPT without explicit rejection. ICARUS DDAL and ICARUS cannot be equated from the text alone."
-      ],
       "edition_id": "AMRKB-SRCED-0001",
       "edition_manifest": "AMRKB_Source_Editions.json",
-      "recovery": "Recovered exactly from AMRKB-PRO-0088.original_text on 2026-11-01; original hash and quote/line slices retained.",
+      "line_count": 247,
+      "format": "Incomplete documentary research source; exact evidence is held archivally.",
+      "coverage": "247 extraction-edition lines accounted for; 393 later-edition lines compared separately, not fully scientifically extracted. Original source completeness remains unknown.",
+      "limitations": [
+        "Detailed family-1 and family-2 inventories are unavailable.",
+        "Detailed family-8 expansion is unavailable/deferred.",
+        "Source-level bibliography and authenticated original dates and speaker metadata remain unavailable.",
+        "Five methodological groups remain unnamed; certification placement and mixed entity identities remain unresolved.",
+        "AgriFM and AgroGPT remain despite later omission. ICAERUS DDAL and ICAERUS remain distinct candidates without verified identity equivalence."
+      ],
       "origin_confirmation": {
         "authority": "owner",
         "confirmation_date": "2026-11-02",
-        "conversation_context": "normal research conversation",
-        "scope": "Owner confirms that both preserved incomplete documentary editions originate from the normal AMRKB Overview research conversation.",
-        "authenticated_message_metadata": false,
-        "authenticated_speaker_assignments": false,
-        "authenticated_original_dates": false,
-        "conversation_completeness": "unknown"
+        "scope": "Common documentary research origin confirmed; original dates, speaker assignments and completeness not authenticated."
       },
-      "bounded_assessment": {
-        "extraction_edition_id": "AMRKB-SRCED-0001",
-        "extraction_lines_accounted": 247,
-        "comparison_edition_id": "AMRKB-SRCED-0002",
-        "comparison_lines_accounted": 393,
-        "comparison_is_new_scientific_extraction": false,
-        "conversation_completeness": "unknown",
-        "scope": "Complete accounting of the available 247-line extraction edition and separate comparison of the available 393-line edition; neither establishes complete original conversation coverage."
-      }
+      "evidence_access": "archival; use an explicitly supplied evidence root for full checks"
     },
-    "audit_status": "Complete 247-line extraction-edition accounting; current 393-line history separately compared, additions not scientifically re-extracted; original conversation completeness unproven.",
+    "audit_status": "Extraction and edition-comparison accounting preserved; scientific verification and original source completeness remain unresolved.",
     "counts": {
       "records": 292,
       "classifications": 66,
@@ -99,12 +81,59 @@
     },
     "identity_limits": "Case/whitespace variants of exactly named terms share documentary entries; no spelling, synonym, broader/narrower or external-system equivalences inferred. Family association counts are not unique-entity counts.",
     "maintenance": {
-      "revision": "2026-11-02-stage-b",
-      "date": "2026-11-02",
-      "scope": "Owner-approved documentation and metadata maintenance only; no scientific collection, status or schema changes.",
-      "document_version_policy": "Machine document and generated Scientific presentation remain 0.2.1, with this dated maintenance revision; unchanged schema permits document versions 0.2.0/0.2.1. README 0.3.2 and Protocol 0.2.2 are document revisions, not research releases.",
+      "revision": "2026-11-03-publication-preparation",
+      "date": "2026-11-03",
+      "scope": "Owner-approved editorial presentation, archival provenance separation, ADDG redistribution and current-label spelling correction; no identity merges or scientific acceptance.",
       "stage_c_visual_review": "pending",
-      "owner_acceptance_of_stage_b": "pending"
+      "owner_acceptance_of_stage_b": "pending",
+      "document_version_policy": "Machine/Scientific 0.3.0; README 0.3.3; Protocol 0.2.3; serialization schema 0.3.0. Incompatible public provenance serialization; independent document/schema editions, not research releases. Earlier raw-quotation documents require deliberate migration, not automatic validation under this schema."
+    },
+    "public_provenance": {
+      "representation": "Edition identifiers, source locators, line ranges and exact quotation SHA-256 fingerprints; raw quotations retained in Development evidence linked to immutable Archive editions.",
+      "structured_statuses": "Original project status values and meanings are retained. Human presentation uses documented neutral labels.",
+      "preservation_record": "Owner-controlled Development workspace, history/publication-preparation-2026-11-03; no private absolute locator required in public records."
+    },
+    "editorial_corrections": [
+      {
+        "date": "2026-11-03",
+        "authority": "owner",
+        "kind": "current_display_spelling",
+        "record_ids": [
+          "AMRKB-REC-0286",
+          "AMRKB-REC-0287"
+        ],
+        "reference_ids": [
+          "AMRKB-REF-0012",
+          "AMRKB-REF-0013"
+        ],
+        "from": [
+          "ICARUS DDAL",
+          "ICARUS"
+        ],
+        "to": [
+          "ICAERUS DDAL",
+          "ICAERUS"
+        ],
+        "scope": "Current labels only; original terms, source quotations and archival editions retain original spelling. Both IDs remain distinct; no equivalence or scientific identity verification claimed."
+      }
+    ],
+    "presentation_status_labels": {
+      "assistant_proposed_candidate": "Source-proposed candidate",
+      "assistant_proposed_provisional": "Source-proposed provisional definition",
+      "assistant_proposed_association": "Source-proposed association",
+      "assistant_illustrative_hypothesis": "Source-proposed illustrative hypothesis",
+      "family_inventory_relevant_details_unverified": "Relevant inventory entry; details unverified",
+      "user_approved_inventory_scope_not_verified_identity": "Owner-approved inventory scope; identity unverified",
+      "family_inventory_explored_not_individually_approved": "Inventory explored; individual association not approved",
+      "candidate_not_verified": "Candidate; unverified",
+      "user_relevance_and_further_exploration_confirmed": "Relevance and further exploration confirmed",
+      "proposed_future_research_application": "Proposed future research application",
+      "user_instruction": "Recorded owner direction",
+      "user_relevance_decision": "Recorded relevance decision",
+      "partially_supported_working_progression": "Partially supported working progression",
+      "deferred": "Deferred",
+      "unresolved": "Unresolved",
+      "not_established_by_source": "Not established by source"
     }
   },
   "records": [
@@ -7532,7 +7561,7 @@
     },
     {
       "id": "AMRKB-REC-0286",
-      "label": "ICARUS DDAL",
+      "label": "ICAERUS DDAL",
       "record_type": "named_research_candidate",
       "original_terms": [
         "ICARUS DDAL"
@@ -7557,7 +7586,7 @@
     },
     {
       "id": "AMRKB-REC-0287",
-      "label": "ICARUS",
+      "label": "ICAERUS",
       "record_type": "named_research_candidate",
       "original_terms": [
         "ICARUS"
@@ -9066,7 +9095,7 @@
     },
     {
       "id": "AMRKB-REF-0012",
-      "label": "ICARUS DDAL",
+      "label": "ICAERUS DDAL",
       "reference_kind": "incomplete_named_source_candidate_not_bibliographic_record",
       "bibliographic_status": "No author, title, date, DOI or URL supplied; source-level audit deferred.",
       "candidate_record_id": "AMRKB-REC-0286",
@@ -9077,7 +9106,7 @@
     },
     {
       "id": "AMRKB-REF-0013",
-      "label": "ICARUS",
+      "label": "ICAERUS",
       "reference_kind": "incomplete_named_source_candidate_not_bibliographic_record",
       "bibliographic_status": "No author, title, date, DOI or URL supplied; source-level audit deferred.",
       "candidate_record_id": "AMRKB-REC-0287",
@@ -9090,971 +9119,971 @@
   "provenance": [
     {
       "id": "AMRKB-PRO-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 8,
       "line_end": 8,
-      "original_text": "Agricultural mode\tThe broad organisation of agricultural production and its relationship with land, labour and ecology\tSubsistence, pastoral, industrial, regenerative",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "66ede0db4b65214266a5208ec152e4be8872ee192f824b4ab7e8e282021ab5d7",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0002",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 9,
       "line_end": 9,
-      "original_text": "Agricultural system\tThe arrangement of agricultural activities within a particular landscape\tAgroforestry, mixed farming, silvopasture, monoculture",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "3091a9a8f7770603da38bfe88df88f758df7fde40af81a4ed33c89a506fbaf41",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0003",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 10,
       "line_end": 10,
-      "original_text": "Agricultural method\tAn established approach to managing agricultural production\tOrganic farming, biodynamic farming, conservation agriculture",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "8727f2f13fb14823d68918c1f57c0eda17032bd8262e8bb89244a8c6ed38481e",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0004",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 11,
       "line_end": 11,
-      "original_text": "Agricultural practice\tA specific intervention or management technique\tMulching, intercropping, rotational grazing, cover cropping",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "0bba68e18234e827f8d9b9327cfe77f6dcf6daa5fce94d971c1be5b29823b553",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0005",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 12,
       "line_end": 12,
-      "original_text": "Agricultural technology\tTools and infrastructure enabling agricultural activities\tIrrigation, tractors, sensors, drones, robotic harvesting",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "1b548d30f63ebcb86951c1e10da4b03c80d53e0dacb1ad5f1edc6e451dff3dd4",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0006",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 13,
       "line_end": 13,
-      "original_text": "Ecological mechanism\tThe biological or physical process affected by agricultural activity\tNitrogen fixation, nutrient cycling, mycorrhizal exchange",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "c4926c99229f0528a7cd3d9c8ba6e85dc111c2b6d89c22569aa4f72861177dbf",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0007",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 14,
       "line_end": 14,
-      "original_text": "Ecological indicator\tA measurable variable used to evaluate conditions or outcomes\tSoil organic carbon, microbial diversity, infiltration rate",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "61c6f7f33b7b1b4e33361e6cdf7aa1d1061843210fcc71f3c425c6c35f4fdf61",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0008",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 21,
       "line_end": 21,
-      "original_text": "1. Traditional and Indigenous\tShifting cultivation, terrace agriculture, oasis agriculture, traditional polycultures, transhumance, traditional Mediterranean dryland farming",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "87da12e4ce012e8dd570bcb67e58890b58c9c8d6630b029009df4fc93b1c4bb6",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0009",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 22,
       "line_end": 22,
-      "original_text": "2. Extensive and pastoral\tExtensive grazing, nomadic pastoralism, ranching, silvopastoral systems",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "4b0a444e47b7161ac89c11a42fcdf00c39a451db85954d9b139317238a6823bd",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0010",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 23,
       "line_end": 23,
-      "original_text": "3. Intensive and industrial\tMechanised agriculture, industrial monoculture, intensive livestock production, controlled-environment agriculture",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "d02a44f045903aaebbb6472f2cab52d4cdbc6d1f2da9e160e8694de42023d103",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0011",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 24,
       "line_end": 24,
-      "original_text": "4. Ecological and organic\tOrganic agriculture, biodynamic agriculture, ecological farming, biological pest management",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "8ab0acbcefbc183bd40737fbc37c0f1a24fa20841e31611abc3bcd7b8b253c5b",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0012",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 25,
       "line_end": 25,
-      "original_text": "5. Regenerative and conservation\tRegenerative agriculture, conservation agriculture, holistic grazing, soil-centred farming",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "24563d27587dd47ff4eac4965c40cef42a74729535535358dc363cbd384697a5",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0013",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 26,
       "line_end": 26,
-      "original_text": "6. Agroecological and diversified\tAgroecology, agroforestry, permaculture, syntropic agriculture, food forests, integrated crop–livestock systems",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "085072da174a556098247fc1b4392e0b32af570628ea3de55b0dbf0116f03fd1",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0014",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 27,
       "line_end": 27,
-      "original_text": "7. Precision and computational\tPrecision agriculture, variable-rate farming, sensor-assisted irrigation, robotic agriculture, AI-supported farm management",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "d55bf1b1c58de7f86cd34d3d8592573cefe5ac0eb992a0284743049d7525a0b1",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0015",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 28,
       "line_end": 28,
-      "original_text": "8. Experimental and emerging\tMicrobial farming interventions, biointensive agriculture, cellular agriculture, climate-adaptive farming, digitally coordinated agricultural systems",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "bea434ec830e8bde246044762c47020b6db68cc03557a3955f972f38ee20db21",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0016",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 37,
       "line_end": 37,
-      "original_text": "Soil management\tTillage, no-till, mulching, composting, biochar application",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "ce5bbc2921adb1f2526d854e3eaae082a65ab694093ec76f318d64d63ecf79bf",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0017",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 38,
       "line_end": 38,
-      "original_text": "Water management\tRainwater harvesting, contour cultivation, drip irrigation, keyline design",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "ce163de654f0cbedf7a6c9d8657386ba58c3bef5800fe455e251b76a87b42b35",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0018",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 39,
       "line_end": 39,
-      "original_text": "Nutrient management\tGreen manure, biological nitrogen fixation, nutrient recycling",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "a6c7086700d4035b9988cff5f8f89b28304383b6e0f88e83e6ef0012897e4d56",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0019",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 40,
       "line_end": 40,
-      "original_text": "Biodiversity management\tHedgerows, habitat corridors, companion planting, ecological refuges",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "49ea58befb5cb2addb21ea046023b1e50a98d96378e7cbe01b354ce556e092e9",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0020",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 41,
       "line_end": 41,
-      "original_text": "Crop organisation\tCrop rotation, intercropping, succession planting, polycultures",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "03832b6f3cb2937e2f448179af9f35b7f8bcd16000673a50ec0fa51c9aa952b5",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0021",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 42,
       "line_end": 42,
-      "original_text": "Tree integration\tAlley cropping, silvopasture, forest gardens, windbreaks",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "ded6d4bbdddf78d739ca09fc18a8a1381e2ea94d7b3042b6d0f85a134c2255cc",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0022",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 43,
       "line_end": 43,
-      "original_text": "Livestock integration\tRotational grazing, managed browsing, integrated crop–livestock systems",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "977278e8bc5f58b8bf82790182bee5af06c22117e2010700bb8cec283c7b629b",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0023",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 44,
       "line_end": 44,
-      "original_text": "Pest management\tBiological control, integrated pest management, pheromone disruption",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "b4ac733d5d1ab00aa2e8c10429a5e2dc33a008bdd03a38b3c51a6808e23df090",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0024",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 45,
       "line_end": 45,
-      "original_text": "Microbiome management\tMicrobial inoculation, mycorrhizal management, rhizosphere management",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "3bd3727becf04e084da6d9b911cefe029202b6063c1d5885d4e03bfee60d595c",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0025",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 46,
       "line_end": 46,
-      "original_text": "Landscape management\tTerracing, erosion control, firebreak grazing, watershed restoration",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "5833395c5c10773aeeef6227a26d990b612ccfeb2e2f68bf2dee54a58faf4930",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0026",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 47,
       "line_end": 47,
-      "original_text": "Climate adaptation\tDrought-tolerant cultivars, assisted diversification, microclimate management",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "c594e86749fcd736418f7d0bf23605d3f1195ff0bb35ee3ac2e560b59b0dc490",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0027",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 48,
       "line_end": 48,
-      "original_text": "Monitoring and automation\tRemote sensing, soil sensors, robotic interventions, predictive modelling",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "e43fc2d88403f5d043dc77d5aa0a59f74b8020c359ad469becb64169604c924c",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0028",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 208,
       "line_end": 208,
-      "original_text": "Intensive and industrial coming up. Right. Intensive and industrial methodologies, soil and mechanized cultivation, conventional tillage, mouldboard plowing, discing, harrowing, deep ripping, subsoiling, rotary cultivation, mechanized bed formation, mechanical leveling; crop organisation and production, monocropping, continuous monoculture, specialized cropping, mechanized row cropping, high density planting, precision seed placement, transplant-based production, double cropping, continuous cropping, nutrient management, synthetic fertiliser application, broadcast fertilisation, band fertilisation, fertigation, foliar feeding, controlled release fertilisers, nutrient solutions, nutrient budgeting, irrigation, surface, furrow, sprinkler, centre pivot, drip, sub-surface drip, automated scheduling, deficit irrigation, recycling. Pest, disease and weed: preventive pesticide schedules, threshold-based spraying, herbicide programmes, mechanical weeding implements, chemical seed treatments, soil fumigation, crop sanitation, resistant cultivar deployment. Livestock production: confinement systems, feedlots, total mixed ration, automated feeding, controlled environment housing, intensive poultry, intensive pig systems, automated milking, slurry management. Controlled environment and soilless: greenhouse production, hydroponics, substrate culture, nutrient film technique, deep water culture, aeroponics, vertical farming, artificial lighting, climate control. Mechanised harvesting and postharvest: combine harvesting, mechanical fruit harvest, vegetable harvest, forage harvest, baling, mechanical sorting, controlled atmosphere storage, cold chain preservation. That keeps us at the same level as the first two families. Anything here you want merged or split before we go on to ecological and organic?",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "c68517843675e5e2dd6f759ea1361b2079a3d047b62af1701189927c8f0319c0",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0029",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 211,
       "line_end": 211,
-      "original_text": "Ecological and organic starts now. Soil and fertility: compost-based fertilisation, green manures, organic mulching, vermicompost, biological soil conditioning, reduced disturbance organic tillage, organic amendments. Nutrient management: biological nitrogen fixation, leguminous cover cropping, animal manure recycling, plant-based liquid feeds, organic fertilisers, rotation-based nutrient cycling, integrated nutrient budgeting. Pest and disease: biological control, conservation biocontrol, augmentative biocontrol, microbial biocontrol, habitat management, trap cropping, pheromone disruption, ecological disease suppression, botanical pesticides; weed and vegetation: mechanical weeding, manual weeding, mulch suppression, cover-crop suppression, thermal weeding, flame weeding, stale seedbed, ecological competition management; crop organisation: organic rotation, organic intercropping, companion planting, organic polyculture, cover cropping, living mulches, green manure rotations, organic seed management, biodiversity:",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "c6498d9146ea1c8da12569c2c4ae0639f43b7f7ee8bd89c8a78fe77c0d589e6d",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0030",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 213,
       "line_end": 213,
-      "original_text": "agroforestry, hedgerows, wood pasture, pollinator strips, riparian buffers. Certification methodologies might sit alongside these rather than inside them. Is that about right for this family before we go on to regenerative and conservation approaches?",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "9bce28026eea30675e969f5fa63165091a049ea41ad61b9706f81ac52d1a0471",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0031",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 216,
       "line_end": 216,
-      "original_text": "Right. Regenerative and conservation. Soil and disturbance: no-till, strip-till, minimum disturbance seeding, permanent soil cover; cover cropping, multi-species covers, living roots year round; nutrient and carbon, compost additions, biochar application, residue retention; grazing integration, adaptive multi-paddock grazing, holistic planned grazing, crop-livestock integration, pasture cropping; water and landscape, contour farming, keyline design, infiltration earthworks. Biodiversity: prairie strips, hedgerows, agroforestry within regenerative context; outcome verification methodologies, soil organic carbon monitoring, infiltration testing, biodiversity scoring. Does that capture the main methodological threads?",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "6d2a6365eb10b3e8c44f1a8284ae218efa5c8bc3fba76ffb8e27615ef9f46fd4",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0032",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 219,
       "line_end": 219,
-      "original_text": "Agroecological and diversified. Crop organisation, complex rotations, intercropping, polycultures, relay cropping, push-pull pest systems. Tree integration, agroforestry, alley cropping, silvopasture, forest gardens, syntropic pruning sequences. Soil fertility, green manures, composting, mulching, biological amendments. Biodiversity and habitat, ecological corridors, wetlands, pollinator refuges, on-farm genetic diversity, landraces. Livestock integration: mixed crop-livestock, rotational grazing within diversified farms. Knowledge and social methodologies: participatory plant breeding, farmer field schools, co-design. Does that sit right for this family?",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "63884d03b4e227df17683d32dd6617a52d9601f8f608f3ccf02cdf288bcb28d1",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0033",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 222,
       "line_end": 222,
-      "original_text": "Precision and computational. Sensing and mapping: soil sensors, remote sensing imagery, yield mapping, proximal sensing. Decision tools: variable rate recommendations, prescription maps, decision-support systems, farm management platforms. Application and robotics: variable rate seeding, variable rate fertilisation, precision spraying, autonomous tractors, robotic weeding. Irrigation tech: sensor-driven scheduling, automated drip, remote pump control. Analytics and prediction: machine learning models, anomaly detection, digital twins, predictive maintenance. Data integration: UAV scouting, satellite time series, farm GIS layers, interoperability standards. That's the precision family at methodology level, without vendors or products.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "7fabeb6b452578cd41629a5f4f7eada2e73b0bdf33b70b87b16f08ad16ae2c55",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0034",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 58,
       "line_end": 58,
-      "original_text": "Cover cropping",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "8f10d9d9e681f294dc7f18f4c88a658affc2af5b8734ed2144f6a1d719c81878",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0035",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 59,
       "line_end": 59,
-      "original_text": "- Mechanisms: nutrient cycling, erosion reduction, soil carbon inputs.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "7705d63ddfa3cf10376074e3099c18744a6f5b6b4626633847a1ee76e384f8d5",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0036",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 60,
       "line_end": 60,
-      "original_text": "- Indicators: soil organic carbon, microbial biomass, infiltration, vegetation cover.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "ec8bc19ccd258082815a40acd3c88ca4cd39311b7ab8c028f4de6664abfd3649",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0037",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 61,
       "line_end": 61,
-      "original_text": "- Potential outcomes: improved soil structure, reduced erosion, increased biodiversity.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "766d75f698b1c441256b148de4422c9bf6781860ef965a800b7b93d429ce6c3c",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0038",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 62,
       "line_end": 62,
-      "original_text": "- Context: suitability depends on rainfall, soil properties, crop competition and management.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "8104e9e4f989676c767566a3fa48c110a507dd30c1eff06fa6ae071b350be9a8",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0039",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 63,
       "line_end": 63,
-      "original_text": "Silvopasture",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "be9c4934d84c033e05028c6d608803c3d5c83710a555a3b2588ce1cdf1ce58d2",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0040",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 64,
       "line_end": 64,
-      "original_text": "- Mechanisms: nutrient cycling, vegetation succession, microclimate regulation.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "cb3265584c00b76af209d2bf18914e8273d9980401f32766d6ced816753dcdce",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0041",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 65,
       "line_end": 65,
-      "original_text": "- Indicators: soil moisture, canopy cover, species diversity, livestock productivity.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "bd748f22f9de3ccfdfe8137bd787283bb1060277d5225101731c122b1441fb4f",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0042",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 66,
       "line_end": 66,
-      "original_text": "- Potential outcomes: diversified production, habitat provision and improved thermal conditions.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "c3d4c59bba9f2c3c0a66f699205921b025c0b4861f50e6127828042f71fd3ac6",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0043",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 67,
       "line_end": 67,
-      "original_text": "- Context: particularly interesting for Mediterranean landscapes where grazing can also contribute to vegetation and fire-risk management.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "3fe504484e88c290f189d4d482d0be65e5e1252e78cc7d32c8b642742c7ea501",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0044",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 159,
       "line_end": 159,
-      "original_text": "Historical: Origins, evolution, geographical diffusion and transformation of agricultural systems.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "b59122271adf3b04ab15e206cd9a9dc0d34cb69534ca88b54e637192cd2945fe",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0045",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 161,
       "line_end": 161,
-      "original_text": "Conceptual: Agricultural philosophies, theoretical frameworks, traditions and schools of thought.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "114c8330437c80cc17b9b12d98c596ffc9a7671590e940df0cad09f324a1d943",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0046",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 163,
       "line_end": 163,
-      "original_text": "Technical: Methods, practices, tools, machinery and productive infrastructure.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "691df6a3f31f6528810827238785150c466449aca42ce4edc906e0d72833621f",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0047",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 165,
       "line_end": 165,
-      "original_text": "Ecological: Relationships with soils, water, biodiversity, microbiomes, nutrient cycles and ecosystem functions.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "269772f98b40c4b7ff88a751fb51cf495d7363781dcbef2c3fcf4c5413283c5d",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0048",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 167,
       "line_end": 167,
-      "original_text": "Geographical: Climate, terrain, bioregions, cultural landscapes and place-specific suitability.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "f65a6b59966cb7a9dca929cbb6634596353d9aa96441837d48050f60f5b2d42a",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0049",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 169,
       "line_end": 169,
-      "original_text": "Socioeconomic: Labour, land tenure, productive organisation, agricultural economies and relationships with local industries.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "12632b8d16b60cd640c034059448c9505f24de7cf8982b9e4b101665e9d0cef3",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0050",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 239,
       "line_end": 241,
-      "original_text": "Let's pin that down. Yes. I think we can scope this as cross-cutting research and application domains, rather than new families. For now, I'd sketch five domains. Open agricultural technology, agricultural AI and knowledge systems, agricultural robotics, information infrastructure, and ecologically informed agricultural design. Each would connect methodologies, projects, and information resources without forcing them into one family. For AI specifically, I'd start a reference inventory covering analytical ML, LLM-based systems, knowledge graphs, and agent-based tools, with field validation as a requirement. Then we can ask which of these help with your ecological signatures question, not just production optimisation. Does that feel like a useful next step, building that reference inventory?\n\nYes, that does feel like a, a good next step. Um, Please take that next step",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "b014d4e0836a1d07689af3a57d74d5e3a54c62f09b7ad0f2d1032de61171cb6e",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0051",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 233,
       "line_end": 233,
-      "original_text": "Yeah, okay. Let's take those together. I'd frame open agricultural technology as development and sharing of tools through open design and distributed manufacturing. That gives us methodologies like open-source hardware, local fabrication, participatory design, and open farm software, all illustrated by the references we've gathered. Then AI sits inside computational agriculture as a family of methodologies for interpreting data, coordinating tools, and supporting decisions, rather than one single technique. Large language models add the ability to work with agricultural knowledge expressed in language, for example querying observations or assembling evidence from multiple sources. I'd keep analytical AI, generative AI, and agentic systems distinct but connected because they'll link differently to OSDS, GIS DS, EII, and the computation layer. There's also an interesting overlap between open hardware, sensing, and AI interpretation that could become a dedicated cross-cutting classification. Does that sound like the right scope?",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "c35e30d0b0de7e726a768cfbe5ba1b065bc72362d19e225d97de37b3ac4f467f",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0052",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 239,
       "line_end": 239,
-      "original_text": "Let's pin that down. Yes. I think we can scope this as cross-cutting research and application domains, rather than new families. For now, I'd sketch five domains. Open agricultural technology, agricultural AI and knowledge systems, agricultural robotics, information infrastructure, and ecologically informed agricultural design. Each would connect methodologies, projects, and information resources without forcing them into one family. For AI specifically, I'd start a reference inventory covering analytical ML, LLM-based systems, knowledge graphs, and agent-based tools, with field validation as a requirement. Then we can ask which of these help with your ecological signatures question, not just production optimisation. Does that feel like a useful next step, building that reference inventory?",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "f3afbf3d4d1d6b04da8d2eb162fa07ea3e596dd3a768a24132d8c4f7a2148ecc",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0053",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 242,
       "line_end": 242,
-      "original_text": "Okay, I'll map it out. I'll establish the first Agricultural AI and Knowledge Systems reference inventory inside the AMRKB. Start with a working list of research programmes, open-source tools, knowledge graphs, language models, and agent systems such as AgriFM, AgroGPT, Farmer.Chat, AgroPortal, AgroLD, PlantVillage, DeepWeeds, ROMI, DSSAT, farmOS, OpenTEAM, and the ICARUS DDAL, then separate technologies from applications and evidence, and keep ecological agricultural intelligence as an explicit research direction tied to regional signatures, rather than production optimisation. We'll keep all of that provisional until each reference is verified. Does that work as the scoped next step?",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "a064917bb46426709138631fa5120ee2d4c9bfbb75d57cc3cba68aa0f18f1949",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0054",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 247,
       "line_end": 247,
-      "original_text": "I'll treat Farmer.Chat, AgroPortal, AgroLD, PlantVillage, DeepWeeds, DSSAT, farmOS, OpenTEAM, ROMI, and ICARUS as an initial reference inventory. Keep five methodological groups, and preserve ecological agricultural intelligence as a proposed research direction. Next stage is a source-level audit before anything becomes authoritative in the AMRKB. We'll hold it there for now.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "a09530eb33cfccacd618a21d2583a6a6da09e5bc48fd6f959c279610b67e3890",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0055",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 139,
       "line_end": 139,
-      "original_text": "EIRKB\tEcological Interaction Reference Knowledge Base — scientific literature, concepts, theories, ecological relationships and associated knowledge",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "82a4da31335a0fc6a75ed215d0320b737072160726153656f4d486b1e9119949",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0056",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 140,
       "line_end": 140,
-      "original_text": "EII\tEcological Indicators Inventory — measurable ecological variables, indicators, methodologies and their interpretation",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "e809a4542224e6061759ef6868a30584a065623d00b2aec4504c7954194c2795",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0057",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 68,
       "line_end": 68,
-      "original_text": "This approach could eventually enable a GIS-based system to recommend agricultural methods according to the ecological characteristics of a specific location.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "9a09d71f24976e4941e9197396ee1cd564ca06e7d3618ec6a36794ede8aecd26",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0058",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 104,
       "line_end": 104,
-      "original_text": "It would allow us to ask not only which agricultural methods work in a particular landscape, but also why particular agricultural systems emerged there and whether alternative systems might now be more appropriate.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "1a07786734a203c0b5a81ddcecca340c5ba15f8024f6118fea573106bc9041b2",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0059",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 80,
       "line_end": 80,
-      "original_text": "This would also support your research into food forests, agricultural history, regenerative industries and situated ecological technology.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "12c4242a23b5b2122b68a42a3ca259127335e8a452647f323fb777799111d695",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0060",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 1,
       "line_end": 5,
-      "original_text": "Agricultural Modes and Methods\nClassification, historical development, ecological relationships and technological systems\nI suggest developing Agricultural Modes and Methods as a structured research area within the Ecological Information project, with connections to the Ecological Indicators Inventory (EII) and Ecological Interaction Reference Knowledge Base (EIRKB).\n\nAn important starting point is distinguishing between agricultural modes, systems, methods, practices and technologies. These are related but not interchangeable.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "4c82ffc197e707d2bc8cfc2ad3dddc50970c9d8905d80dc7ab28c6029e47ccde",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0061",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 6,
       "line_end": 17,
-      "original_text": "1. A proposed classification\nLevel\tDefinition\tExamples\nAgricultural mode\tThe broad organisation of agricultural production and its relationship with land, labour and ecology\tSubsistence, pastoral, industrial, regenerative\nAgricultural system\tThe arrangement of agricultural activities within a particular landscape\tAgroforestry, mixed farming, silvopasture, monoculture\nAgricultural method\tAn established approach to managing agricultural production\tOrganic farming, biodynamic farming, conservation agriculture\nAgricultural practice\tA specific intervention or management technique\tMulching, intercropping, rotational grazing, cover cropping\nAgricultural technology\tTools and infrastructure enabling agricultural activities\tIrrigation, tractors, sensors, drones, robotic harvesting\nEcological mechanism\tThe biological or physical process affected by agricultural activity\tNitrogen fixation, nutrient cycling, mycorrhizal exchange\nEcological indicator\tA measurable variable used to evaluate conditions or outcomes\tSoil organic carbon, microbial diversity, infiltration rate\n\n\nThis structure would allow us to connect agricultural approaches to their ecological consequences, rather than simply compiling a catalogue of farming techniques.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "9fc547da575880ce057278ec6a5b6132ac961104d0435ef7891360a73d3ba5d8",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0062",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 18,
       "line_end": 31,
-      "original_text": "2. Agricultural modes: an initial inventory\nI propose beginning with eight broad families, recognising that some categories overlap and operate at different levels.\nFamily\tAgricultural modes and approaches\n1. Traditional and Indigenous\tShifting cultivation, terrace agriculture, oasis agriculture, traditional polycultures, transhumance, traditional Mediterranean dryland farming\n2. Extensive and pastoral\tExtensive grazing, nomadic pastoralism, ranching, silvopastoral systems\n3. Intensive and industrial\tMechanised agriculture, industrial monoculture, intensive livestock production, controlled-environment agriculture\n4. Ecological and organic\tOrganic agriculture, biodynamic agriculture, ecological farming, biological pest management\n5. Regenerative and conservation\tRegenerative agriculture, conservation agriculture, holistic grazing, soil-centred farming\n6. Agroecological and diversified\tAgroecology, agroforestry, permaculture, syntropic agriculture, food forests, integrated crop–livestock systems\n7. Precision and computational\tPrecision agriculture, variable-rate farming, sensor-assisted irrigation, robotic agriculture, AI-supported farm management\n8. Experimental and emerging\tMicrobial farming interventions, biointensive agriculture, cellular agriculture, climate-adaptive farming, digitally coordinated agricultural systems\n\n\nThese are provisional research families, not mutually exclusive scientific categories. For example, agroforestry is principally a land-use system, whereas agroecology is simultaneously a scientific discipline, a set of practices and a social movement.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "66c5285e81ea31685f992cf4ba567ce1cc71510eaacc3ccb5dde72ed6fac91e8",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0063",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 32,
       "line_end": 50,
-      "original_text": "3. A second classification: agricultural methods\nAn agricultural system can incorporate numerous methods.\n\nI suggest classifying these according to the ecological or productive function they perform.\nFunctional category\tMethods\nSoil management\tTillage, no-till, mulching, composting, biochar application\nWater management\tRainwater harvesting, contour cultivation, drip irrigation, keyline design\nNutrient management\tGreen manure, biological nitrogen fixation, nutrient recycling\nBiodiversity management\tHedgerows, habitat corridors, companion planting, ecological refuges\nCrop organisation\tCrop rotation, intercropping, succession planting, polycultures\nTree integration\tAlley cropping, silvopasture, forest gardens, windbreaks\nLivestock integration\tRotational grazing, managed browsing, integrated crop–livestock systems\nPest management\tBiological control, integrated pest management, pheromone disruption\nMicrobiome management\tMicrobial inoculation, mycorrhizal management, rhizosphere management\nLandscape management\tTerracing, erosion control, firebreak grazing, watershed restoration\nClimate adaptation\tDrought-tolerant cultivars, assisted diversification, microclimate management\nMonitoring and automation\tRemote sensing, soil sensors, robotic interventions, predictive modelling\n\n",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "5207ba94a5646428d464df1238925c44a1c9affe81c4be836bc0ab306db499e1",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0064",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 51,
       "line_end": 68,
-      "original_text": "4. Connecting agricultural methods to ecological information\nFor your wider research, I see particular value in establishing relationships between:\n\nAgricultural method → Ecological mechanism → Measurable indicator → Ecological outcome → Place-specific suitability\n\nFor example:\n\nCover cropping\n- Mechanisms: nutrient cycling, erosion reduction, soil carbon inputs.\n- Indicators: soil organic carbon, microbial biomass, infiltration, vegetation cover.\n- Potential outcomes: improved soil structure, reduced erosion, increased biodiversity.\n- Context: suitability depends on rainfall, soil properties, crop competition and management.\nSilvopasture\n- Mechanisms: nutrient cycling, vegetation succession, microclimate regulation.\n- Indicators: soil moisture, canopy cover, species diversity, livestock productivity.\n- Potential outcomes: diversified production, habitat provision and improved thermal conditions.\n- Context: particularly interesting for Mediterranean landscapes where grazing can also contribute to vegetation and fire-risk management.\nThis approach could eventually enable a GIS-based system to recommend agricultural methods according to the ecological characteristics of a specific location.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "88277b214c2f7285e7898bc54a1eaeb2c7244d5ddb88de9641ef8d76c264aa00",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0065",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 69,
       "line_end": 80,
-      "original_text": "5. Relationship with the existing research projects\nI suggest maintaining this as a distinct but interoperable inventory.\n\nAgricultural Modes and Methods Inventory (AMMI) could contain:\n- Agricultural modes and systems, including historical and geographical distributions.\n- Agricultural methods and practices, including their technical requirements.\n- Associated technologies and productive infrastructure.\n- Ecological mechanisms and dependencies.\n- Relationships to indicators in the EII.\n- Scientific literature and historical references in the EIRKB.\n- Geographical suitability, including climate analogues and future climate scenarios.\nThis would also support your research into food forests, agricultural history, regenerative industries and situated ecological technology.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "ffe754d0b21b9d85f555943d0c2549b927fb65e1d1d457a19ebd3cd713b5fe62",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0066",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 81,
       "line_end": 106,
-      "original_text": "6. Proposed research stages\nI would organise the investigation into four stages.\n\nStage A — Agricultural Modes Inventory\n\nEstablish a comprehensive taxonomy of agricultural modes and systems, including historical origins, geographical distribution, theoretical foundations and relationships between approaches.\n\nStage B — Agricultural Methods Inventory\n\nCatalogue agricultural practices, techniques and technologies, including their historical development, operational requirements and ecological mechanisms.\n\nStage C — Ecological and Geographical Relationships\n\nConnect the inventory to ecological indicators, soils, climate, topography, species interactions and landscape characteristics. This would establish interoperability with the EII and GIS.\n\nStage D — Agricultural Suitability and Design\n\nDevelop a framework for comparing and selecting agricultural systems and methods for specific places, including climate-change adaptation, productive potential, biodiversity conservation and regenerative industrial opportunities.\nOne important distinction\nI would also introduce a historical dimension that examines how agricultural modes have emerged, spread, combined and transformed over time.\n\nThis could connect agricultural history with the history of technology, land tenure, energy systems, labour organisation and ecological transformation.\n\nIt would allow us to ask not only which agricultural methods work in a particular landscape, but also why particular agricultural systems emerged there and whether alternative systems might now be more appropriate.\n\nMy suggestion is to begin with Stage A: a comprehensive Agricultural Modes Inventory, before moving into individual practices. We can establish a structured Markdown reference document, following the approach used for the EIRKB and EII, while keeping the three databases conceptually distinct and interoperable.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "bda57d87ae8929a225f93fb0f48625f113196214a5bd6eb1a13a8e983bc76cd8",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0067",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 107,
       "line_end": 119,
-      "original_text": "\n\n\n\n\n\n     \n\n\n\n\n\n",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "30ea9aebfa7f77769aaa96eaa07dfba9061746bf1c491d631624b87e7cd572a2",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0068",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 120,
       "line_end": 132,
-      "original_text": "Ultimately I want to create a similar database to the EIRKB we can call this AMRKB it should be a parallel project and use a similar and complementary framework to the EIRKB and under the same umbrella as the other databases yet for now remain a separate thread.\n\n\n\n\n\n \n\n\n\n\n\n",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "fdc7ff8ed40cab9e725338f3494dd653ef4a14ba3ed857de6e79e862c2a9c527",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0069",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 133,
       "line_end": 155,
-      "original_text": "Memory updated\nAgreed. We will establish the Agricultural Modes Reference Knowledge Base (AMRKB) as a separate but interoperable research project within the broader Ecological Information framework.\n\nThe intention is to develop a family of complementary knowledge bases, each maintaining its own research scope while sharing common principles for references, metadata, classification and database architecture.\n1. Relationship between the databases\nDatabase\tPrimary purpose\nEIRKB\tEcological Interaction Reference Knowledge Base — scientific literature, concepts, theories, ecological relationships and associated knowledge\nEII\tEcological Indicators Inventory — measurable ecological variables, indicators, methodologies and their interpretation\nAMRKB\tAgricultural Modes Reference Knowledge Base — agricultural history, modes, systems, methods, practices and technologies\n\n\nThe AMRKB will remain an independent project rather than becoming a subsection of the EIRKB.\n2. Shared architectural principles\nI propose that the AMRKB adopt the same underlying strategy as the EIRKB:\n1. Markdown documentation — human-readable scope, architecture and reference material.\n2. SQLite database — a structured and extensible knowledge base.\n3. Persistent identifiers — stable references for agricultural systems, methods, technologies and sources.\n4. Zotero interoperability — alignment with existing bibliographic standards without duplicating Zotero's functions.\n5. GIS compatibility — geographical relationships, spatial data and QGIS integration.\n6. Machine-readable exports — CSV, JSON and other interoperable formats.\n7. Knowledge graph compatibility — relationships between agricultural approaches, ecological processes, technologies and places.\n8. Version control — Git-based development, with version information maintained inside documents rather than filenames.\nImportantly, the databases should share conventions without necessarily sharing identical data structures. Each will require specialised entities and relationships.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "707bbcf43278c77c7a614cbb925318112c293f046b879f4164e941d0143b4ac1",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0070",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 156,
       "line_end": 171,
-      "original_text": "3. Particular scope of the AMRKB\nThe AMRKB should accommodate several dimensions of agricultural knowledge:\n\nHistorical: Origins, evolution, geographical diffusion and transformation of agricultural systems.\n\nConceptual: Agricultural philosophies, theoretical frameworks, traditions and schools of thought.\n\nTechnical: Methods, practices, tools, machinery and productive infrastructure.\n\nEcological: Relationships with soils, water, biodiversity, microbiomes, nutrient cycles and ecosystem functions.\n\nGeographical: Climate, terrain, bioregions, cultural landscapes and place-specific suitability.\n\nSocioeconomic: Labour, land tenure, productive organisation, agricultural economies and relationships with local industries.\n\nThese dimensions should eventually support comparisons between agricultural approaches across geographical regions and historical periods.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "5169c87fda4532035b585539a932a8a34bd18354d5cdcb0a3e345ad8bdea88c0",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0071",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 172,
       "line_end": 181,
-      "original_text": "4. Development strategy\nFor now, I suggest proceeding in three steps:\n\nStage A — Scope and architecture: Define the AMRKB's boundaries, entities, classifications and relationships to the EIRKB and EII.\n\nStage B — Reference inventory: Develop a comprehensive catalogue of agricultural modes, methods, historical traditions, technologies and relevant scientific literature.\n\nStage C — Database implementation: Establish the SQLite schema, import the reference inventory and develop basic CLI tools for querying and maintaining the database.\n\nWe should avoid premature database implementation until the conceptual classifications are sufficiently developed.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "935d5ba9c3907cbc6f2888311c37f12b2b9c03d15ebcd68d3b4b38568633141a",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0072",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 182,
       "line_end": 206,
-      "original_text": "5. Project organisation\nThe proposed structure is:\necological-information/\n│\n├── EIRKB/\n│   └── Ecological Interaction Reference Knowledge Base\n│\n├── EII/\n│   └── Ecological Indicators Inventory\n│\n└── AMRKB/\n    └── Agricultural Modes Reference Knowledge Base\n\nThis is a conceptual organisation, not yet a recommendation to restructure your existing Git repositories.\n\nWe can subsequently determine whether independent repositories, a monorepo or a hybrid arrangement is most appropriate.\nNext step\nI suggest we begin by developing the AMRKB Scope and Architecture document, following the structure already established for the EIRKB.\n\nOne principle I would establish from the outset is that the AMRKB should not be restricted to contemporary regenerative agriculture. It should represent the full historical and geographical diversity of agricultural systems, including industrial, traditional, experimental and emerging approaches.\n\nThis will make it possible to undertake comparative research rather than organising the knowledge base around a predetermined agricultural philosophy.\n\nWe can develop this entirely within the present conversation, keeping it separate from the EIRKB and EII threads until we are ready to establish their technical interoperability.\n",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "307327ef79492f97e891ee2999e50de445a8a06ae8766a1575f14d04c705c681",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0073",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 207,
       "line_end": 209,
-      "original_text": "Yes, that's perfect Uh. for now. Thank you very much. Let's move to the next family\nIntensive and industrial coming up. Right. Intensive and industrial methodologies, soil and mechanized cultivation, conventional tillage, mouldboard plowing, discing, harrowing, deep ripping, subsoiling, rotary cultivation, mechanized bed formation, mechanical leveling; crop organisation and production, monocropping, continuous monoculture, specialized cropping, mechanized row cropping, high density planting, precision seed placement, transplant-based production, double cropping, continuous cropping, nutrient management, synthetic fertiliser application, broadcast fertilisation, band fertilisation, fertigation, foliar feeding, controlled release fertilisers, nutrient solutions, nutrient budgeting, irrigation, surface, furrow, sprinkler, centre pivot, drip, sub-surface drip, automated scheduling, deficit irrigation, recycling. Pest, disease and weed: preventive pesticide schedules, threshold-based spraying, herbicide programmes, mechanical weeding implements, chemical seed treatments, soil fumigation, crop sanitation, resistant cultivar deployment. Livestock production: confinement systems, feedlots, total mixed ration, automated feeding, controlled environment housing, intensive poultry, intensive pig systems, automated milking, slurry management. Controlled environment and soilless: greenhouse production, hydroponics, substrate culture, nutrient film technique, deep water culture, aeroponics, vertical farming, artificial lighting, climate control. Mechanised harvesting and postharvest: combine harvesting, mechanical fruit harvest, vegetable harvest, forage harvest, baling, mechanical sorting, controlled atmosphere storage, cold chain preservation. That keeps us at the same level as the first two families. Anything here you want merged or split before we go on to ecological and organic?\n",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "123b74ffc3da9f902cebfaa4ee56bb59da4cfecfdafda25747c0c1d9f10ce03a",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0074",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 210,
       "line_end": 214,
-      "original_text": "Nope, that's absolutely fine. Let's move on to the next family\nEcological and organic starts now. Soil and fertility: compost-based fertilisation, green manures, organic mulching, vermicompost, biological soil conditioning, reduced disturbance organic tillage, organic amendments. Nutrient management: biological nitrogen fixation, leguminous cover cropping, animal manure recycling, plant-based liquid feeds, organic fertilisers, rotation-based nutrient cycling, integrated nutrient budgeting. Pest and disease: biological control, conservation biocontrol, augmentative biocontrol, microbial biocontrol, habitat management, trap cropping, pheromone disruption, ecological disease suppression, botanical pesticides; weed and vegetation: mechanical weeding, manual weeding, mulch suppression, cover-crop suppression, thermal weeding, flame weeding, stale seedbed, ecological competition management; crop organisation: organic rotation, organic intercropping, companion planting, organic polyculture, cover cropping, living mulches, green manure rotations, organic seed management, biodiversity:\n\nagroforestry, hedgerows, wood pasture, pollinator strips, riparian buffers. Certification methodologies might sit alongside these rather than inside them. Is that about right for this family before we go on to regenerative and conservation approaches?\n",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "2a4530bc272d601c55626c8b8935174558ec07b9a7bb6c195cf5da793859f721",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0075",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 215,
       "line_end": 217,
-      "original_text": "Yep, that's fine. Let's move on to the next one\nRight. Regenerative and conservation. Soil and disturbance: no-till, strip-till, minimum disturbance seeding, permanent soil cover; cover cropping, multi-species covers, living roots year round; nutrient and carbon, compost additions, biochar application, residue retention; grazing integration, adaptive multi-paddock grazing, holistic planned grazing, crop-livestock integration, pasture cropping; water and landscape, contour farming, keyline design, infiltration earthworks. Biodiversity: prairie strips, hedgerows, agroforestry within regenerative context; outcome verification methodologies, soil organic carbon monitoring, infiltration testing, biodiversity scoring. Does that capture the main methodological threads?\n",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "bf4fd8c463abe2e4d8987cfa06b36ef6b4bb5d8870257250035cce9c0de4f1ac",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0076",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 218,
       "line_end": 220,
-      "original_text": "Yep, that's very interesting. Um, Okay, let's move on to the next one\nAgroecological and diversified. Crop organisation, complex rotations, intercropping, polycultures, relay cropping, push-pull pest systems. Tree integration, agroforestry, alley cropping, silvopasture, forest gardens, syntropic pruning sequences. Soil fertility, green manures, composting, mulching, biological amendments. Biodiversity and habitat, ecological corridors, wetlands, pollinator refuges, on-farm genetic diversity, landraces. Livestock integration: mixed crop-livestock, rotational grazing within diversified farms. Knowledge and social methodologies: participatory plant breeding, farmer field schools, co-design. Does that sit right for this family?\n",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "59de2ae1cf01c12079fb87b62bdcaa670709f355b8468ad89b8835623544a37c",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0077",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 221,
       "line_end": 223,
-      "original_text": "Yep, that sits fine. Okay, I think we can move on to the next Uh family\nPrecision and computational. Sensing and mapping: soil sensors, remote sensing imagery, yield mapping, proximal sensing. Decision tools: variable rate recommendations, prescription maps, decision-support systems, farm management platforms. Application and robotics: variable rate seeding, variable rate fertilisation, precision spraying, autonomous tractors, robotic weeding. Irrigation tech: sensor-driven scheduling, automated drip, remote pump control. Analytics and prediction: machine learning models, anomaly detection, digital twins, predictive maintenance. Data integration: UAV scouting, satellite time series, farm GIS layers, interoperability standards. That's the precision family at methodology level, without vendors or products.\n",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "cf42cee9accde4dcef715aa95af86ca7ab81ada13f562396b543d3b9869e415a",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0078",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 224,
       "line_end": 226,
-      "original_text": "Sorry, can you say that again? I, I wasn't listening closely\nOf course. No worries. We've got a solid set of Family 7 references now. Next time, we could either formalise a cross-cutting theme for open agricultural technology and distributed manufacturing or go back to Family 8. Which would you prefer?\n",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "29b8b0b48e5497007f5437f6095bd4c2aa7b2221e9c9efe50e01d2bbc2c18f3e",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0079",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 227,
       "line_end": 234,
-      "original_text": "Yeah, I want to explore that cross-cutting theme because that will be very relevant to my research. Um, I also want to understand how large language models Uh and AI are currently fitting into the idea of computational agriculture\nLet's take those in\n\nYeah.\n\nAnd I want to dis-discover some references for that as well\nYeah, okay. Let's take those together. I'd frame open agricultural technology as development and sharing of tools through open design and distributed manufacturing. That gives us methodologies like open-source hardware, local fabrication, participatory design, and open farm software, all illustrated by the references we've gathered. Then AI sits inside computational agriculture as a family of methodologies for interpreting data, coordinating tools, and supporting decisions, rather than one single technique. Large language models add the ability to work with agricultural knowledge expressed in language, for example querying observations or assembling evidence from multiple sources. I'd keep analytical AI, generative AI, and agentic systems distinct but connected because they'll link differently to OSDS, GIS DS, EII, and the computation layer. There's also an interesting overlap between open hardware, sensing, and AI interpretation that could become a dedicated cross-cutting classification. Does that sound like the right scope?\n",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "fe64a08c0f5dbe128e719d21514b337348eb79b9d12e20590b0d23ff37ef0299",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0080",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 235,
       "line_end": 240,
-      "original_text": "Yep, that does sound like the right scope. Um, I also like the idea that these become, Um, dedicated cross-cutting, Uh, applications as you said, Uh, or something similar\nMm-hm.\n\n. So, yes, please, could you go down that field and see if we can. Do some scoping Uh. Further there\nLet's pin that down. Yes. I think we can scope this as cross-cutting research and application domains, rather than new families. For now, I'd sketch five domains. Open agricultural technology, agricultural AI and knowledge systems, agricultural robotics, information infrastructure, and ecologically informed agricultural design. Each would connect methodologies, projects, and information resources without forcing them into one family. For AI specifically, I'd start a reference inventory covering analytical ML, LLM-based systems, knowledge graphs, and agent-based tools, with field validation as a requirement. Then we can ask which of these help with your ecological signatures question, not just production optimisation. Does that feel like a useful next step, building that reference inventory?\n",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "6629a6cefe7401a137f9ce11f5a710e53dd429a9d514191fd25c5e9d4fc185f4",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0081",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 241,
       "line_end": 246,
-      "original_text": "Yes, that does feel like a, a good next step. Um, Please take that next step\nOkay, I'll map it out. I'll establish the first Agricultural AI and Knowledge Systems reference inventory inside the AMRKB. Start with a working list of research programmes, open-source tools, knowledge graphs, language models, and agent systems such as AgriFM, AgroGPT, Farmer.Chat, AgroPortal, AgroLD, PlantVillage, DeepWeeds, ROMI, DSSAT, farmOS, OpenTEAM, and the ICARUS DDAL, then separate technologies from applications and evidence, and keep ecological agricultural intelligence as an explicit research direction tied to regional signatures, rather than production optimisation. We'll keep all of that provisional until each reference is verified. Does that work as the scoped next step?\n\nYes, that works for me. Um. Yeah, that works fine. Go for it\nGreat, I'll proceed with that scope. I'll bring back a structured reference list and criteria for field evidence next time.\n",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "f1d8feb92c695e3d207139b15e82618ad6f388da194733032786d6ebccbbf58e",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0082",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 120,
       "line_end": 144,
-      "original_text": "Ultimately I want to create a similar database to the EIRKB we can call this AMRKB it should be a parallel project and use a similar and complementary framework to the EIRKB and under the same umbrella as the other databases yet for now remain a separate thread.\n\n\n\n\n\n \n\n\n\n\n\n\nMemory updated\nAgreed. We will establish the Agricultural Modes Reference Knowledge Base (AMRKB) as a separate but interoperable research project within the broader Ecological Information framework.\n\nThe intention is to develop a family of complementary knowledge bases, each maintaining its own research scope while sharing common principles for references, metadata, classification and database architecture.\n1. Relationship between the databases\nDatabase\tPrimary purpose\nEIRKB\tEcological Interaction Reference Knowledge Base — scientific literature, concepts, theories, ecological relationships and associated knowledge\nEII\tEcological Indicators Inventory — measurable ecological variables, indicators, methodologies and their interpretation\nAMRKB\tAgricultural Modes Reference Knowledge Base — agricultural history, modes, systems, methods, practices and technologies\n\n\nThe AMRKB will remain an independent project rather than becoming a subsection of the EIRKB.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "b8bde084aee2d5654e9db154cddc64f5fd6611549a8ac604e5d3d8209996eed4",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0083",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 207,
       "line_end": 223,
-      "original_text": "Yes, that's perfect Uh. for now. Thank you very much. Let's move to the next family\nIntensive and industrial coming up. Right. Intensive and industrial methodologies, soil and mechanized cultivation, conventional tillage, mouldboard plowing, discing, harrowing, deep ripping, subsoiling, rotary cultivation, mechanized bed formation, mechanical leveling; crop organisation and production, monocropping, continuous monoculture, specialized cropping, mechanized row cropping, high density planting, precision seed placement, transplant-based production, double cropping, continuous cropping, nutrient management, synthetic fertiliser application, broadcast fertilisation, band fertilisation, fertigation, foliar feeding, controlled release fertilisers, nutrient solutions, nutrient budgeting, irrigation, surface, furrow, sprinkler, centre pivot, drip, sub-surface drip, automated scheduling, deficit irrigation, recycling. Pest, disease and weed: preventive pesticide schedules, threshold-based spraying, herbicide programmes, mechanical weeding implements, chemical seed treatments, soil fumigation, crop sanitation, resistant cultivar deployment. Livestock production: confinement systems, feedlots, total mixed ration, automated feeding, controlled environment housing, intensive poultry, intensive pig systems, automated milking, slurry management. Controlled environment and soilless: greenhouse production, hydroponics, substrate culture, nutrient film technique, deep water culture, aeroponics, vertical farming, artificial lighting, climate control. Mechanised harvesting and postharvest: combine harvesting, mechanical fruit harvest, vegetable harvest, forage harvest, baling, mechanical sorting, controlled atmosphere storage, cold chain preservation. That keeps us at the same level as the first two families. Anything here you want merged or split before we go on to ecological and organic?\n\nNope, that's absolutely fine. Let's move on to the next family\nEcological and organic starts now. Soil and fertility: compost-based fertilisation, green manures, organic mulching, vermicompost, biological soil conditioning, reduced disturbance organic tillage, organic amendments. Nutrient management: biological nitrogen fixation, leguminous cover cropping, animal manure recycling, plant-based liquid feeds, organic fertilisers, rotation-based nutrient cycling, integrated nutrient budgeting. Pest and disease: biological control, conservation biocontrol, augmentative biocontrol, microbial biocontrol, habitat management, trap cropping, pheromone disruption, ecological disease suppression, botanical pesticides; weed and vegetation: mechanical weeding, manual weeding, mulch suppression, cover-crop suppression, thermal weeding, flame weeding, stale seedbed, ecological competition management; crop organisation: organic rotation, organic intercropping, companion planting, organic polyculture, cover cropping, living mulches, green manure rotations, organic seed management, biodiversity:\n\nagroforestry, hedgerows, wood pasture, pollinator strips, riparian buffers. Certification methodologies might sit alongside these rather than inside them. Is that about right for this family before we go on to regenerative and conservation approaches?\n\nYep, that's fine. Let's move on to the next one\nRight. Regenerative and conservation. Soil and disturbance: no-till, strip-till, minimum disturbance seeding, permanent soil cover; cover cropping, multi-species covers, living roots year round; nutrient and carbon, compost additions, biochar application, residue retention; grazing integration, adaptive multi-paddock grazing, holistic planned grazing, crop-livestock integration, pasture cropping; water and landscape, contour farming, keyline design, infiltration earthworks. Biodiversity: prairie strips, hedgerows, agroforestry within regenerative context; outcome verification methodologies, soil organic carbon monitoring, infiltration testing, biodiversity scoring. Does that capture the main methodological threads?\n\nYep, that's very interesting. Um, Okay, let's move on to the next one\nAgroecological and diversified. Crop organisation, complex rotations, intercropping, polycultures, relay cropping, push-pull pest systems. Tree integration, agroforestry, alley cropping, silvopasture, forest gardens, syntropic pruning sequences. Soil fertility, green manures, composting, mulching, biological amendments. Biodiversity and habitat, ecological corridors, wetlands, pollinator refuges, on-farm genetic diversity, landraces. Livestock integration: mixed crop-livestock, rotational grazing within diversified farms. Knowledge and social methodologies: participatory plant breeding, farmer field schools, co-design. Does that sit right for this family?\n\nYep, that sits fine. Okay, I think we can move on to the next Uh family\nPrecision and computational. Sensing and mapping: soil sensors, remote sensing imagery, yield mapping, proximal sensing. Decision tools: variable rate recommendations, prescription maps, decision-support systems, farm management platforms. Application and robotics: variable rate seeding, variable rate fertilisation, precision spraying, autonomous tractors, robotic weeding. Irrigation tech: sensor-driven scheduling, automated drip, remote pump control. Analytics and prediction: machine learning models, anomaly detection, digital twins, predictive maintenance. Data integration: UAV scouting, satellite time series, farm GIS layers, interoperability standards. That's the precision family at methodology level, without vendors or products.\n",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "f09109e43dae85e181c7ebdff3c4a3c4af8c93a944d7f75a744fb770f5e6871f",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0084",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 207,
       "line_end": 221,
-      "original_text": "Yes, that's perfect Uh. for now. Thank you very much. Let's move to the next family\nIntensive and industrial coming up. Right. Intensive and industrial methodologies, soil and mechanized cultivation, conventional tillage, mouldboard plowing, discing, harrowing, deep ripping, subsoiling, rotary cultivation, mechanized bed formation, mechanical leveling; crop organisation and production, monocropping, continuous monoculture, specialized cropping, mechanized row cropping, high density planting, precision seed placement, transplant-based production, double cropping, continuous cropping, nutrient management, synthetic fertiliser application, broadcast fertilisation, band fertilisation, fertigation, foliar feeding, controlled release fertilisers, nutrient solutions, nutrient budgeting, irrigation, surface, furrow, sprinkler, centre pivot, drip, sub-surface drip, automated scheduling, deficit irrigation, recycling. Pest, disease and weed: preventive pesticide schedules, threshold-based spraying, herbicide programmes, mechanical weeding implements, chemical seed treatments, soil fumigation, crop sanitation, resistant cultivar deployment. Livestock production: confinement systems, feedlots, total mixed ration, automated feeding, controlled environment housing, intensive poultry, intensive pig systems, automated milking, slurry management. Controlled environment and soilless: greenhouse production, hydroponics, substrate culture, nutrient film technique, deep water culture, aeroponics, vertical farming, artificial lighting, climate control. Mechanised harvesting and postharvest: combine harvesting, mechanical fruit harvest, vegetable harvest, forage harvest, baling, mechanical sorting, controlled atmosphere storage, cold chain preservation. That keeps us at the same level as the first two families. Anything here you want merged or split before we go on to ecological and organic?\n\nNope, that's absolutely fine. Let's move on to the next family\nEcological and organic starts now. Soil and fertility: compost-based fertilisation, green manures, organic mulching, vermicompost, biological soil conditioning, reduced disturbance organic tillage, organic amendments. Nutrient management: biological nitrogen fixation, leguminous cover cropping, animal manure recycling, plant-based liquid feeds, organic fertilisers, rotation-based nutrient cycling, integrated nutrient budgeting. Pest and disease: biological control, conservation biocontrol, augmentative biocontrol, microbial biocontrol, habitat management, trap cropping, pheromone disruption, ecological disease suppression, botanical pesticides; weed and vegetation: mechanical weeding, manual weeding, mulch suppression, cover-crop suppression, thermal weeding, flame weeding, stale seedbed, ecological competition management; crop organisation: organic rotation, organic intercropping, companion planting, organic polyculture, cover cropping, living mulches, green manure rotations, organic seed management, biodiversity:\n\nagroforestry, hedgerows, wood pasture, pollinator strips, riparian buffers. Certification methodologies might sit alongside these rather than inside them. Is that about right for this family before we go on to regenerative and conservation approaches?\n\nYep, that's fine. Let's move on to the next one\nRight. Regenerative and conservation. Soil and disturbance: no-till, strip-till, minimum disturbance seeding, permanent soil cover; cover cropping, multi-species covers, living roots year round; nutrient and carbon, compost additions, biochar application, residue retention; grazing integration, adaptive multi-paddock grazing, holistic planned grazing, crop-livestock integration, pasture cropping; water and landscape, contour farming, keyline design, infiltration earthworks. Biodiversity: prairie strips, hedgerows, agroforestry within regenerative context; outcome verification methodologies, soil organic carbon monitoring, infiltration testing, biodiversity scoring. Does that capture the main methodological threads?\n\nYep, that's very interesting. Um, Okay, let's move on to the next one\nAgroecological and diversified. Crop organisation, complex rotations, intercropping, polycultures, relay cropping, push-pull pest systems. Tree integration, agroforestry, alley cropping, silvopasture, forest gardens, syntropic pruning sequences. Soil fertility, green manures, composting, mulching, biological amendments. Biodiversity and habitat, ecological corridors, wetlands, pollinator refuges, on-farm genetic diversity, landraces. Livestock integration: mixed crop-livestock, rotational grazing within diversified farms. Knowledge and social methodologies: participatory plant breeding, farmer field schools, co-design. Does that sit right for this family?\n\nYep, that sits fine. Okay, I think we can move on to the next Uh family",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "093ca5e96756eedfdd57363a1a912e89ac5fe6c371ccd5fe4f273a79557ef2fa",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0085",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 227,
       "line_end": 244,
-      "original_text": "Yeah, I want to explore that cross-cutting theme because that will be very relevant to my research. Um, I also want to understand how large language models Uh and AI are currently fitting into the idea of computational agriculture\nLet's take those in\n\nYeah.\n\nAnd I want to dis-discover some references for that as well\nYeah, okay. Let's take those together. I'd frame open agricultural technology as development and sharing of tools through open design and distributed manufacturing. That gives us methodologies like open-source hardware, local fabrication, participatory design, and open farm software, all illustrated by the references we've gathered. Then AI sits inside computational agriculture as a family of methodologies for interpreting data, coordinating tools, and supporting decisions, rather than one single technique. Large language models add the ability to work with agricultural knowledge expressed in language, for example querying observations or assembling evidence from multiple sources. I'd keep analytical AI, generative AI, and agentic systems distinct but connected because they'll link differently to OSDS, GIS DS, EII, and the computation layer. There's also an interesting overlap between open hardware, sensing, and AI interpretation that could become a dedicated cross-cutting classification. Does that sound like the right scope?\n\nYep, that does sound like the right scope. Um, I also like the idea that these become, Um, dedicated cross-cutting, Uh, applications as you said, Uh, or something similar\nMm-hm.\n\n. So, yes, please, could you go down that field and see if we can. Do some scoping Uh. Further there\nLet's pin that down. Yes. I think we can scope this as cross-cutting research and application domains, rather than new families. For now, I'd sketch five domains. Open agricultural technology, agricultural AI and knowledge systems, agricultural robotics, information infrastructure, and ecologically informed agricultural design. Each would connect methodologies, projects, and information resources without forcing them into one family. For AI specifically, I'd start a reference inventory covering analytical ML, LLM-based systems, knowledge graphs, and agent-based tools, with field validation as a requirement. Then we can ask which of these help with your ecological signatures question, not just production optimisation. Does that feel like a useful next step, building that reference inventory?\n\nYes, that does feel like a, a good next step. Um, Please take that next step\nOkay, I'll map it out. I'll establish the first Agricultural AI and Knowledge Systems reference inventory inside the AMRKB. Start with a working list of research programmes, open-source tools, knowledge graphs, language models, and agent systems such as AgriFM, AgroGPT, Farmer.Chat, AgroPortal, AgroLD, PlantVillage, DeepWeeds, ROMI, DSSAT, farmOS, OpenTEAM, and the ICARUS DDAL, then separate technologies from applications and evidence, and keep ecological agricultural intelligence as an explicit research direction tied to regional signatures, rather than production optimisation. We'll keep all of that provisional until each reference is verified. Does that work as the scoped next step?\n\nYes, that works for me. Um. Yeah, that works fine. Go for it",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "ac289b124b9dea9755373d5900f34315fc9195fc52950539004834d93b882fde",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0086",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 225,
       "line_end": 239,
-      "original_text": "Of course. No worries. We've got a solid set of Family 7 references now. Next time, we could either formalise a cross-cutting theme for open agricultural technology and distributed manufacturing or go back to Family 8. Which would you prefer?\n\nYeah, I want to explore that cross-cutting theme because that will be very relevant to my research. Um, I also want to understand how large language models Uh and AI are currently fitting into the idea of computational agriculture\nLet's take those in\n\nYeah.\n\nAnd I want to dis-discover some references for that as well\nYeah, okay. Let's take those together. I'd frame open agricultural technology as development and sharing of tools through open design and distributed manufacturing. That gives us methodologies like open-source hardware, local fabrication, participatory design, and open farm software, all illustrated by the references we've gathered. Then AI sits inside computational agriculture as a family of methodologies for interpreting data, coordinating tools, and supporting decisions, rather than one single technique. Large language models add the ability to work with agricultural knowledge expressed in language, for example querying observations or assembling evidence from multiple sources. I'd keep analytical AI, generative AI, and agentic systems distinct but connected because they'll link differently to OSDS, GIS DS, EII, and the computation layer. There's also an interesting overlap between open hardware, sensing, and AI interpretation that could become a dedicated cross-cutting classification. Does that sound like the right scope?\n\nYep, that does sound like the right scope. Um, I also like the idea that these become, Um, dedicated cross-cutting, Uh, applications as you said, Uh, or something similar\nMm-hm.\n\n. So, yes, please, could you go down that field and see if we can. Do some scoping Uh. Further there\nLet's pin that down. Yes. I think we can scope this as cross-cutting research and application domains, rather than new families. For now, I'd sketch five domains. Open agricultural technology, agricultural AI and knowledge systems, agricultural robotics, information infrastructure, and ecologically informed agricultural design. Each would connect methodologies, projects, and information resources without forcing them into one family. For AI specifically, I'd start a reference inventory covering analytical ML, LLM-based systems, knowledge graphs, and agent-based tools, with field validation as a requirement. Then we can ask which of these help with your ecological signatures question, not just production optimisation. Does that feel like a useful next step, building that reference inventory?",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "deba99bce847dbf5215a01c4b44eee8dfcfcb5fc53fa36b8fa76068a13b3a33d",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0087",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 242,
       "line_end": 247,
-      "original_text": "Okay, I'll map it out. I'll establish the first Agricultural AI and Knowledge Systems reference inventory inside the AMRKB. Start with a working list of research programmes, open-source tools, knowledge graphs, language models, and agent systems such as AgriFM, AgroGPT, Farmer.Chat, AgroPortal, AgroLD, PlantVillage, DeepWeeds, ROMI, DSSAT, farmOS, OpenTEAM, and the ICARUS DDAL, then separate technologies from applications and evidence, and keep ecological agricultural intelligence as an explicit research direction tied to regional signatures, rather than production optimisation. We'll keep all of that provisional until each reference is verified. Does that work as the scoped next step?\n\nYes, that works for me. Um. Yeah, that works fine. Go for it\nGreat, I'll proceed with that scope. I'll bring back a structured reference list and criteria for field evidence next time.\n\nI'll treat Farmer.Chat, AgroPortal, AgroLD, PlantVillage, DeepWeeds, DSSAT, farmOS, OpenTEAM, ROMI, and ICARUS as an initial reference inventory. Keep five methodological groups, and preserve ecological agricultural intelligence as a proposed research direction. Next stage is a source-level audit before anything becomes authoritative in the AMRKB. We'll hold it there for now.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "05a324450adfe60abbb3be2fc76ffc5b9e05010e6eae030a4f36ff89cb8234fd",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     },
     {
       "id": "AMRKB-PRO-0088",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
       "line_start": 1,
       "line_end": 247,
-      "original_text": "Agricultural Modes and Methods\nClassification, historical development, ecological relationships and technological systems\nI suggest developing Agricultural Modes and Methods as a structured research area within the Ecological Information project, with connections to the Ecological Indicators Inventory (EII) and Ecological Interaction Reference Knowledge Base (EIRKB).\n\nAn important starting point is distinguishing between agricultural modes, systems, methods, practices and technologies. These are related but not interchangeable.\n1. A proposed classification\nLevel\tDefinition\tExamples\nAgricultural mode\tThe broad organisation of agricultural production and its relationship with land, labour and ecology\tSubsistence, pastoral, industrial, regenerative\nAgricultural system\tThe arrangement of agricultural activities within a particular landscape\tAgroforestry, mixed farming, silvopasture, monoculture\nAgricultural method\tAn established approach to managing agricultural production\tOrganic farming, biodynamic farming, conservation agriculture\nAgricultural practice\tA specific intervention or management technique\tMulching, intercropping, rotational grazing, cover cropping\nAgricultural technology\tTools and infrastructure enabling agricultural activities\tIrrigation, tractors, sensors, drones, robotic harvesting\nEcological mechanism\tThe biological or physical process affected by agricultural activity\tNitrogen fixation, nutrient cycling, mycorrhizal exchange\nEcological indicator\tA measurable variable used to evaluate conditions or outcomes\tSoil organic carbon, microbial diversity, infiltration rate\n\n\nThis structure would allow us to connect agricultural approaches to their ecological consequences, rather than simply compiling a catalogue of farming techniques.\n2. Agricultural modes: an initial inventory\nI propose beginning with eight broad families, recognising that some categories overlap and operate at different levels.\nFamily\tAgricultural modes and approaches\n1. Traditional and Indigenous\tShifting cultivation, terrace agriculture, oasis agriculture, traditional polycultures, transhumance, traditional Mediterranean dryland farming\n2. Extensive and pastoral\tExtensive grazing, nomadic pastoralism, ranching, silvopastoral systems\n3. Intensive and industrial\tMechanised agriculture, industrial monoculture, intensive livestock production, controlled-environment agriculture\n4. Ecological and organic\tOrganic agriculture, biodynamic agriculture, ecological farming, biological pest management\n5. Regenerative and conservation\tRegenerative agriculture, conservation agriculture, holistic grazing, soil-centred farming\n6. Agroecological and diversified\tAgroecology, agroforestry, permaculture, syntropic agriculture, food forests, integrated crop–livestock systems\n7. Precision and computational\tPrecision agriculture, variable-rate farming, sensor-assisted irrigation, robotic agriculture, AI-supported farm management\n8. Experimental and emerging\tMicrobial farming interventions, biointensive agriculture, cellular agriculture, climate-adaptive farming, digitally coordinated agricultural systems\n\n\nThese are provisional research families, not mutually exclusive scientific categories. For example, agroforestry is principally a land-use system, whereas agroecology is simultaneously a scientific discipline, a set of practices and a social movement.\n3. A second classification: agricultural methods\nAn agricultural system can incorporate numerous methods.\n\nI suggest classifying these according to the ecological or productive function they perform.\nFunctional category\tMethods\nSoil management\tTillage, no-till, mulching, composting, biochar application\nWater management\tRainwater harvesting, contour cultivation, drip irrigation, keyline design\nNutrient management\tGreen manure, biological nitrogen fixation, nutrient recycling\nBiodiversity management\tHedgerows, habitat corridors, companion planting, ecological refuges\nCrop organisation\tCrop rotation, intercropping, succession planting, polycultures\nTree integration\tAlley cropping, silvopasture, forest gardens, windbreaks\nLivestock integration\tRotational grazing, managed browsing, integrated crop–livestock systems\nPest management\tBiological control, integrated pest management, pheromone disruption\nMicrobiome management\tMicrobial inoculation, mycorrhizal management, rhizosphere management\nLandscape management\tTerracing, erosion control, firebreak grazing, watershed restoration\nClimate adaptation\tDrought-tolerant cultivars, assisted diversification, microclimate management\nMonitoring and automation\tRemote sensing, soil sensors, robotic interventions, predictive modelling\n\n\n4. Connecting agricultural methods to ecological information\nFor your wider research, I see particular value in establishing relationships between:\n\nAgricultural method → Ecological mechanism → Measurable indicator → Ecological outcome → Place-specific suitability\n\nFor example:\n\nCover cropping\n- Mechanisms: nutrient cycling, erosion reduction, soil carbon inputs.\n- Indicators: soil organic carbon, microbial biomass, infiltration, vegetation cover.\n- Potential outcomes: improved soil structure, reduced erosion, increased biodiversity.\n- Context: suitability depends on rainfall, soil properties, crop competition and management.\nSilvopasture\n- Mechanisms: nutrient cycling, vegetation succession, microclimate regulation.\n- Indicators: soil moisture, canopy cover, species diversity, livestock productivity.\n- Potential outcomes: diversified production, habitat provision and improved thermal conditions.\n- Context: particularly interesting for Mediterranean landscapes where grazing can also contribute to vegetation and fire-risk management.\nThis approach could eventually enable a GIS-based system to recommend agricultural methods according to the ecological characteristics of a specific location.\n5. Relationship with the existing research projects\nI suggest maintaining this as a distinct but interoperable inventory.\n\nAgricultural Modes and Methods Inventory (AMMI) could contain:\n- Agricultural modes and systems, including historical and geographical distributions.\n- Agricultural methods and practices, including their technical requirements.\n- Associated technologies and productive infrastructure.\n- Ecological mechanisms and dependencies.\n- Relationships to indicators in the EII.\n- Scientific literature and historical references in the EIRKB.\n- Geographical suitability, including climate analogues and future climate scenarios.\nThis would also support your research into food forests, agricultural history, regenerative industries and situated ecological technology.\n6. Proposed research stages\nI would organise the investigation into four stages.\n\nStage A — Agricultural Modes Inventory\n\nEstablish a comprehensive taxonomy of agricultural modes and systems, including historical origins, geographical distribution, theoretical foundations and relationships between approaches.\n\nStage B — Agricultural Methods Inventory\n\nCatalogue agricultural practices, techniques and technologies, including their historical development, operational requirements and ecological mechanisms.\n\nStage C — Ecological and Geographical Relationships\n\nConnect the inventory to ecological indicators, soils, climate, topography, species interactions and landscape characteristics. This would establish interoperability with the EII and GIS.\n\nStage D — Agricultural Suitability and Design\n\nDevelop a framework for comparing and selecting agricultural systems and methods for specific places, including climate-change adaptation, productive potential, biodiversity conservation and regenerative industrial opportunities.\nOne important distinction\nI would also introduce a historical dimension that examines how agricultural modes have emerged, spread, combined and transformed over time.\n\nThis could connect agricultural history with the history of technology, land tenure, energy systems, labour organisation and ecological transformation.\n\nIt would allow us to ask not only which agricultural methods work in a particular landscape, but also why particular agricultural systems emerged there and whether alternative systems might now be more appropriate.\n\nMy suggestion is to begin with Stage A: a comprehensive Agricultural Modes Inventory, before moving into individual practices. We can establish a structured Markdown reference document, following the approach used for the EIRKB and EII, while keeping the three databases conceptually distinct and interoperable.\n\n\n\n\n\n\n     \n\n\n\n\n\n\nUltimately I want to create a similar database to the EIRKB we can call this AMRKB it should be a parallel project and use a similar and complementary framework to the EIRKB and under the same umbrella as the other databases yet for now remain a separate thread.\n\n\n\n\n\n \n\n\n\n\n\n\nMemory updated\nAgreed. We will establish the Agricultural Modes Reference Knowledge Base (AMRKB) as a separate but interoperable research project within the broader Ecological Information framework.\n\nThe intention is to develop a family of complementary knowledge bases, each maintaining its own research scope while sharing common principles for references, metadata, classification and database architecture.\n1. Relationship between the databases\nDatabase\tPrimary purpose\nEIRKB\tEcological Interaction Reference Knowledge Base — scientific literature, concepts, theories, ecological relationships and associated knowledge\nEII\tEcological Indicators Inventory — measurable ecological variables, indicators, methodologies and their interpretation\nAMRKB\tAgricultural Modes Reference Knowledge Base — agricultural history, modes, systems, methods, practices and technologies\n\n\nThe AMRKB will remain an independent project rather than becoming a subsection of the EIRKB.\n2. Shared architectural principles\nI propose that the AMRKB adopt the same underlying strategy as the EIRKB:\n1. Markdown documentation — human-readable scope, architecture and reference material.\n2. SQLite database — a structured and extensible knowledge base.\n3. Persistent identifiers — stable references for agricultural systems, methods, technologies and sources.\n4. Zotero interoperability — alignment with existing bibliographic standards without duplicating Zotero's functions.\n5. GIS compatibility — geographical relationships, spatial data and QGIS integration.\n6. Machine-readable exports — CSV, JSON and other interoperable formats.\n7. Knowledge graph compatibility — relationships between agricultural approaches, ecological processes, technologies and places.\n8. Version control — Git-based development, with version information maintained inside documents rather than filenames.\nImportantly, the databases should share conventions without necessarily sharing identical data structures. Each will require specialised entities and relationships.\n3. Particular scope of the AMRKB\nThe AMRKB should accommodate several dimensions of agricultural knowledge:\n\nHistorical: Origins, evolution, geographical diffusion and transformation of agricultural systems.\n\nConceptual: Agricultural philosophies, theoretical frameworks, traditions and schools of thought.\n\nTechnical: Methods, practices, tools, machinery and productive infrastructure.\n\nEcological: Relationships with soils, water, biodiversity, microbiomes, nutrient cycles and ecosystem functions.\n\nGeographical: Climate, terrain, bioregions, cultural landscapes and place-specific suitability.\n\nSocioeconomic: Labour, land tenure, productive organisation, agricultural economies and relationships with local industries.\n\nThese dimensions should eventually support comparisons between agricultural approaches across geographical regions and historical periods.\n4. Development strategy\nFor now, I suggest proceeding in three steps:\n\nStage A — Scope and architecture: Define the AMRKB's boundaries, entities, classifications and relationships to the EIRKB and EII.\n\nStage B — Reference inventory: Develop a comprehensive catalogue of agricultural modes, methods, historical traditions, technologies and relevant scientific literature.\n\nStage C — Database implementation: Establish the SQLite schema, import the reference inventory and develop basic CLI tools for querying and maintaining the database.\n\nWe should avoid premature database implementation until the conceptual classifications are sufficiently developed.\n5. Project organisation\nThe proposed structure is:\necological-information/\n│\n├── EIRKB/\n│   └── Ecological Interaction Reference Knowledge Base\n│\n├── EII/\n│   └── Ecological Indicators Inventory\n│\n└── AMRKB/\n    └── Agricultural Modes Reference Knowledge Base\n\nThis is a conceptual organisation, not yet a recommendation to restructure your existing Git repositories.\n\nWe can subsequently determine whether independent repositories, a monorepo or a hybrid arrangement is most appropriate.\nNext step\nI suggest we begin by developing the AMRKB Scope and Architecture document, following the structure already established for the EIRKB.\n\nOne principle I would establish from the outset is that the AMRKB should not be restricted to contemporary regenerative agriculture. It should represent the full historical and geographical diversity of agricultural systems, including industrial, traditional, experimental and emerging approaches.\n\nThis will make it possible to undertake comparative research rather than organising the knowledge base around a predetermined agricultural philosophy.\n\nWe can develop this entirely within the present conversation, keeping it separate from the EIRKB and EII threads until we are ready to establish their technical interoperability.\n\nYes, that's perfect Uh. for now. Thank you very much. Let's move to the next family\nIntensive and industrial coming up. Right. Intensive and industrial methodologies, soil and mechanized cultivation, conventional tillage, mouldboard plowing, discing, harrowing, deep ripping, subsoiling, rotary cultivation, mechanized bed formation, mechanical leveling; crop organisation and production, monocropping, continuous monoculture, specialized cropping, mechanized row cropping, high density planting, precision seed placement, transplant-based production, double cropping, continuous cropping, nutrient management, synthetic fertiliser application, broadcast fertilisation, band fertilisation, fertigation, foliar feeding, controlled release fertilisers, nutrient solutions, nutrient budgeting, irrigation, surface, furrow, sprinkler, centre pivot, drip, sub-surface drip, automated scheduling, deficit irrigation, recycling. Pest, disease and weed: preventive pesticide schedules, threshold-based spraying, herbicide programmes, mechanical weeding implements, chemical seed treatments, soil fumigation, crop sanitation, resistant cultivar deployment. Livestock production: confinement systems, feedlots, total mixed ration, automated feeding, controlled environment housing, intensive poultry, intensive pig systems, automated milking, slurry management. Controlled environment and soilless: greenhouse production, hydroponics, substrate culture, nutrient film technique, deep water culture, aeroponics, vertical farming, artificial lighting, climate control. Mechanised harvesting and postharvest: combine harvesting, mechanical fruit harvest, vegetable harvest, forage harvest, baling, mechanical sorting, controlled atmosphere storage, cold chain preservation. That keeps us at the same level as the first two families. Anything here you want merged or split before we go on to ecological and organic?\n\nNope, that's absolutely fine. Let's move on to the next family\nEcological and organic starts now. Soil and fertility: compost-based fertilisation, green manures, organic mulching, vermicompost, biological soil conditioning, reduced disturbance organic tillage, organic amendments. Nutrient management: biological nitrogen fixation, leguminous cover cropping, animal manure recycling, plant-based liquid feeds, organic fertilisers, rotation-based nutrient cycling, integrated nutrient budgeting. Pest and disease: biological control, conservation biocontrol, augmentative biocontrol, microbial biocontrol, habitat management, trap cropping, pheromone disruption, ecological disease suppression, botanical pesticides; weed and vegetation: mechanical weeding, manual weeding, mulch suppression, cover-crop suppression, thermal weeding, flame weeding, stale seedbed, ecological competition management; crop organisation: organic rotation, organic intercropping, companion planting, organic polyculture, cover cropping, living mulches, green manure rotations, organic seed management, biodiversity:\n\nagroforestry, hedgerows, wood pasture, pollinator strips, riparian buffers. Certification methodologies might sit alongside these rather than inside them. Is that about right for this family before we go on to regenerative and conservation approaches?\n\nYep, that's fine. Let's move on to the next one\nRight. Regenerative and conservation. Soil and disturbance: no-till, strip-till, minimum disturbance seeding, permanent soil cover; cover cropping, multi-species covers, living roots year round; nutrient and carbon, compost additions, biochar application, residue retention; grazing integration, adaptive multi-paddock grazing, holistic planned grazing, crop-livestock integration, pasture cropping; water and landscape, contour farming, keyline design, infiltration earthworks. Biodiversity: prairie strips, hedgerows, agroforestry within regenerative context; outcome verification methodologies, soil organic carbon monitoring, infiltration testing, biodiversity scoring. Does that capture the main methodological threads?\n\nYep, that's very interesting. Um, Okay, let's move on to the next one\nAgroecological and diversified. Crop organisation, complex rotations, intercropping, polycultures, relay cropping, push-pull pest systems. Tree integration, agroforestry, alley cropping, silvopasture, forest gardens, syntropic pruning sequences. Soil fertility, green manures, composting, mulching, biological amendments. Biodiversity and habitat, ecological corridors, wetlands, pollinator refuges, on-farm genetic diversity, landraces. Livestock integration: mixed crop-livestock, rotational grazing within diversified farms. Knowledge and social methodologies: participatory plant breeding, farmer field schools, co-design. Does that sit right for this family?\n\nYep, that sits fine. Okay, I think we can move on to the next Uh family\nPrecision and computational. Sensing and mapping: soil sensors, remote sensing imagery, yield mapping, proximal sensing. Decision tools: variable rate recommendations, prescription maps, decision-support systems, farm management platforms. Application and robotics: variable rate seeding, variable rate fertilisation, precision spraying, autonomous tractors, robotic weeding. Irrigation tech: sensor-driven scheduling, automated drip, remote pump control. Analytics and prediction: machine learning models, anomaly detection, digital twins, predictive maintenance. Data integration: UAV scouting, satellite time series, farm GIS layers, interoperability standards. That's the precision family at methodology level, without vendors or products.\n\nSorry, can you say that again? I, I wasn't listening closely\nOf course. No worries. We've got a solid set of Family 7 references now. Next time, we could either formalise a cross-cutting theme for open agricultural technology and distributed manufacturing or go back to Family 8. Which would you prefer?\n\nYeah, I want to explore that cross-cutting theme because that will be very relevant to my research. Um, I also want to understand how large language models Uh and AI are currently fitting into the idea of computational agriculture\nLet's take those in\n\nYeah.\n\nAnd I want to dis-discover some references for that as well\nYeah, okay. Let's take those together. I'd frame open agricultural technology as development and sharing of tools through open design and distributed manufacturing. That gives us methodologies like open-source hardware, local fabrication, participatory design, and open farm software, all illustrated by the references we've gathered. Then AI sits inside computational agriculture as a family of methodologies for interpreting data, coordinating tools, and supporting decisions, rather than one single technique. Large language models add the ability to work with agricultural knowledge expressed in language, for example querying observations or assembling evidence from multiple sources. I'd keep analytical AI, generative AI, and agentic systems distinct but connected because they'll link differently to OSDS, GIS DS, EII, and the computation layer. There's also an interesting overlap between open hardware, sensing, and AI interpretation that could become a dedicated cross-cutting classification. Does that sound like the right scope?\n\nYep, that does sound like the right scope. Um, I also like the idea that these become, Um, dedicated cross-cutting, Uh, applications as you said, Uh, or something similar\nMm-hm.\n\n. So, yes, please, could you go down that field and see if we can. Do some scoping Uh. Further there\nLet's pin that down. Yes. I think we can scope this as cross-cutting research and application domains, rather than new families. For now, I'd sketch five domains. Open agricultural technology, agricultural AI and knowledge systems, agricultural robotics, information infrastructure, and ecologically informed agricultural design. Each would connect methodologies, projects, and information resources without forcing them into one family. For AI specifically, I'd start a reference inventory covering analytical ML, LLM-based systems, knowledge graphs, and agent-based tools, with field validation as a requirement. Then we can ask which of these help with your ecological signatures question, not just production optimisation. Does that feel like a useful next step, building that reference inventory?\n\nYes, that does feel like a, a good next step. Um, Please take that next step\nOkay, I'll map it out. I'll establish the first Agricultural AI and Knowledge Systems reference inventory inside the AMRKB. Start with a working list of research programmes, open-source tools, knowledge graphs, language models, and agent systems such as AgriFM, AgroGPT, Farmer.Chat, AgroPortal, AgroLD, PlantVillage, DeepWeeds, ROMI, DSSAT, farmOS, OpenTEAM, and the ICARUS DDAL, then separate technologies from applications and evidence, and keep ecological agricultural intelligence as an explicit research direction tied to regional signatures, rather than production optimisation. We'll keep all of that provisional until each reference is verified. Does that work as the scoped next step?\n\nYes, that works for me. Um. Yeah, that works fine. Go for it\nGreat, I'll proceed with that scope. I'll bring back a structured reference list and criteria for field evidence next time.\n\nI'll treat Farmer.Chat, AgroPortal, AgroLD, PlantVillage, DeepWeeds, DSSAT, farmOS, OpenTEAM, ROMI, and ICARUS as an initial reference inventory. Keep five methodological groups, and preserve ecological agricultural intelligence as a proposed research direction. Next stage is a source-level audit before anything becomes authoritative in the AMRKB. We'll hold it there for now.",
-      "speaker_status": "inferred_from_document_not_authenticated",
       "scientific_verification": "not_independently_verified",
-      "source_edition_id": "AMRKB-SRCED-0001"
+      "source_edition_id": "AMRKB-SRCED-0001",
+      "quotation_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf",
+      "source_role_status": "Roles inferred from source wording; original speaker assignments are not authenticated."
     }
   ],
   "memberships": [
@@ -15069,9 +15098,9 @@
     },
     {
       "id": "AMRKB-DEC-0007",
-      "label": "Reference list differences and ICARUS identity",
+      "label": "Reference list differences and ICAERUS identity",
       "project_status": "unresolved",
-      "description": "Retain AgriFM and AgroGPT despite later omission; keep ICARUS DDAL and ICARUS separate pending identity evidence. No explicit rejection established.",
+      "description": "Retain AgriFM and AgroGPT despite later omission; keep ICAERUS DDAL and ICAERUS separate pending identity evidence. No explicit rejection established.",
       "provenance_ids": [
         "AMRKB-PRO-0087"
       ],
@@ -15101,7 +15130,7 @@
       "id": "AMRKB-DEC-0010",
       "label": "Lexical identity and type review",
       "project_status": "unresolved",
-      "description": "Exact case-insensitive source labels share documentary entries, retaining all context. Spelling variants and possibly related labels remain separate: silvopastoral systems/silvopasture; green manure/green manures; crop-livestock integration/integrated crop–livestock systems/mixed crop-livestock; variable-rate farming/variable rate recommendations; ICARUS DDAL/ICARUS. These are review questions, not approved equivalences. Generic labels such as surface, recycling, habitat management, co-design and wetlands retain their source group context; the source does not fix a universal entity type.",
+      "description": "Exact case-insensitive source labels share documentary entries, retaining all context. Spelling variants and possibly related labels remain separate: silvopastoral systems/silvopasture; green manure/green manures; crop-livestock integration/integrated crop–livestock systems/mixed crop-livestock; variable-rate farming/variable rate recommendations; ICAERUS DDAL/ICAERUS. These are review questions, not approved equivalences. Generic labels such as surface, recycling, habitat management, co-design and wetlands retain their source group context; the source does not fix a universal entity type.",
       "provenance_ids": [
         "AMRKB-PRO-0061",
         "AMRKB-PRO-0073",
@@ -15120,7 +15149,7 @@
       "destination": "records; protocol",
       "provenance_id": "AMRKB-PRO-0060",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15132,7 +15161,7 @@
       "destination": "classifications; memberships; scientific definitions",
       "provenance_id": "AMRKB-PRO-0061",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15144,7 +15173,7 @@
       "destination": "classifications; memberships",
       "provenance_id": "AMRKB-PRO-0062",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15156,7 +15185,7 @@
       "destination": "classifications; memberships",
       "provenance_id": "AMRKB-PRO-0063",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15168,7 +15197,7 @@
       "destination": "applications; relationships; scientific explanations",
       "provenance_id": "AMRKB-PRO-0064",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15180,7 +15209,7 @@
       "destination": "protocol; applications; source context",
       "provenance_id": "AMRKB-PRO-0065",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15192,7 +15221,7 @@
       "destination": "protocol; decisions",
       "provenance_id": "AMRKB-PRO-0066",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15204,7 +15233,7 @@
       "destination": "source retained unchanged",
       "provenance_id": "AMRKB-PRO-0067",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15216,7 +15245,7 @@
       "destination": "metadata; decision",
       "provenance_id": "AMRKB-PRO-0068",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15228,7 +15257,7 @@
       "destination": "protocol; decisions",
       "provenance_id": "AMRKB-PRO-0069",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15240,7 +15269,7 @@
       "destination": "classifications; scientific context",
       "provenance_id": "AMRKB-PRO-0070",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15252,7 +15281,7 @@
       "destination": "protocol; decisions",
       "provenance_id": "AMRKB-PRO-0071",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15264,7 +15293,7 @@
       "destination": "protocol; decisions",
       "provenance_id": "AMRKB-PRO-0072",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15276,7 +15305,7 @@
       "destination": "records; groups; memberships",
       "provenance_id": "AMRKB-PRO-0073",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15288,7 +15317,7 @@
       "destination": "records; groups; memberships",
       "provenance_id": "AMRKB-PRO-0074",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15300,7 +15329,7 @@
       "destination": "records; groups; memberships",
       "provenance_id": "AMRKB-PRO-0075",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15312,7 +15341,7 @@
       "destination": "records; groups; memberships",
       "provenance_id": "AMRKB-PRO-0076",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15324,7 +15353,7 @@
       "destination": "records; groups; memberships",
       "provenance_id": "AMRKB-PRO-0077",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15336,7 +15365,7 @@
       "destination": "decisions; audit limitations",
       "provenance_id": "AMRKB-PRO-0078",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15348,7 +15377,7 @@
       "destination": "themes; candidate terms",
       "provenance_id": "AMRKB-PRO-0079",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15360,7 +15389,7 @@
       "destination": "themes; applications",
       "provenance_id": "AMRKB-PRO-0080",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15372,7 +15401,7 @@
       "destination": "records; incomplete references; decisions",
       "provenance_id": "AMRKB-PRO-0081",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     },
     {
@@ -15384,7 +15413,7 @@
       "destination": "references; unresolved decisions",
       "provenance_id": "AMRKB-PRO-0054",
       "source_edition_id": "AMRKB-SRCED-0001",
-      "source_document": "history/20261101_AMRKB_Chat_History_Extraction_Edition.md",
+      "source_document": "source-editions/20261101_AMRKB_Chat_History_Extraction_Edition.md",
       "source_sha256": "1902b7263a0df34084b58532f01fa16cc70497d373a1332e568e171905b18faf"
     }
   ]

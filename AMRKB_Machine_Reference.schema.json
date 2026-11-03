@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "AMRKB documentary extraction envelope 0.2.0 — local draft, not DRM certification",
+  "title": "AMRKB documentary extraction envelope 0.3.0 — archival provenance separation, not DRM certification",
   "type": "object",
   "required": [
     "$schema",
@@ -36,12 +36,11 @@
       "properties": {
         "document_version": {
           "enum": [
-            "0.2.0",
-            "0.2.1"
+            "0.3.0"
           ]
         },
         "schema_version": {
-          "const": "amrkb.source-extraction/0.2.0"
+          "const": "amrkb.source-extraction/0.3.0"
         },
         "status": {
           "const": "source_extracted_candidates_pending_review"
@@ -324,9 +323,10 @@
           "source_sha256",
           "line_start",
           "line_end",
-          "original_text",
-          "speaker_status",
-          "scientific_verification"
+          "scientific_verification",
+          "source_edition_id",
+          "quotation_sha256",
+          "source_role_status"
         ],
         "properties": {
           "id": {
@@ -347,17 +347,35 @@
             "type": "integer",
             "minimum": 1
           },
-          "original_text": {
-            "type": "string"
-          },
-          "speaker_status": {
-            "type": "string"
-          },
           "scientific_verification": {
             "const": "not_independently_verified"
+          },
+          "source_edition_id": {
+            "const": "AMRKB-SRCED-0001"
+          },
+          "quotation_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "source_role_status": {
+            "type": "string"
           }
         },
-        "additionalProperties": true
+        "additionalProperties": true,
+        "not": {
+          "anyOf": [
+            {
+              "required": [
+                "original_text"
+              ]
+            },
+            {
+              "required": [
+                "speaker_status"
+              ]
+            }
+          ]
+        }
       }
     },
     "themes": {
