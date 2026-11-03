@@ -1,5 +1,9 @@
 # Agricultural Modes Reference Knowledge Base (AMRKB)
 
+![AMRKB four-layer overview: database identity; nested provisional agricultural content; developing DRM methodology; and emerging analysis, intelligence and applications](assets/diagrams/amrkb_overview.svg)
+
+[View full-size research organisation diagram](assets/diagrams/amrkb_overview.svg). Working families, cross-family functions and themes remain distinct proposals. DRM does not own agricultural classifications; downstream uses are emerging research directions, not implemented software. The [editable source](assets/diagrams/amrkb_overview.mmd) and [local renderer](assets/diagrams/render_amrkb_overview.py) support standalone reproduction with `python3 -B assets/diagrams/render_amrkb_overview.py`.
+
 **Work in Progress — Academic Research Resource**
 **Document version:** 0.3.3 · Local extraction awaiting review; not a research release.
 

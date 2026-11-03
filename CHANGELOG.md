@@ -5,6 +5,13 @@ Document and schema versions are distinct from research-database releases.
 
 ## [Unreleased]
 
+### Introductory diagram integration — 3 November 2026
+
+- Integrated the reviewed four-layer introductory diagram: database identity, nested provisional content, developing DRM and emerging analysis/intelligence/applications.
+- Retained editable Mermaid and publication SVG in `assets/diagrams/`, with a local standard-library renderer and read-only parity check; no neighbouring checkout is required to reproduce AMRKB.
+- Preserved working families, functions, themes, research records, classifications, identifiers, source evidence and independent document/schema versions. This is a diagram/documentation revision, not a scientific release or acceptance.
+- Temporary coordinated previews, diagnostics and prior diagram-review baselines are held in Development; essential sources, rendering code and tests remain in Git. No website changes or publication.
+
 ### Publication presentation and ADDG preparation — 3 November 2026
 
 - Retained the project name Agricultural Modes Reference Knowledge Base and the incomplete WIP catalogue; Stage C visual review and owner acceptance remain pending.

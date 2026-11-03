@@ -1,0 +1,105 @@
+%% Authoritative V2 source; canonical OSDS four-layer annotated Mermaid convention.
+%% Reproduce from the AMRKB root: python3 -B assets/diagrams/render_amrkb_overview.py
+%% @canvas 1200 1080
+%% @title AMRKB — research content, methodology and emerging uses
+%% @description Eight source-proposed overlapping agricultural families, separate record concepts, twelve cross-family functions and five themes; no new classifications or memberships. Developing DRM is methodology, not scientific ownership. Downstream uses are proposed, not software capabilities.
+%% @box TITLE 40 20 1120 100 heading
+%% @text TITLE 30,22,19 30,58,84 600,400,400
+%% @group CONTENT 40 148 1120 600 sources
+%% @text CONTENT 27 35 600
+%% @group FAMILIES 60 208 530 360 classification
+%% @text FAMILIES 22 32 600
+%% @box F1 75 260 245 60 card
+%% @text F1 20,20 24,47 400,400
+%% @box F2 330 260 245 60 card
+%% @text F2 20,20 24,47 400,400
+%% @box F3 75 334 245 60 card
+%% @text F3 20,20 24,47 400,400
+%% @box F4 330 334 245 60 card
+%% @text F4 20,20 24,47 400,400
+%% @box F5 75 408 245 60 card
+%% @text F5 20,20 24,47 400,400
+%% @box F6 330 408 245 60 card
+%% @text F6 20,20 24,47 400,400
+%% @box F7 75 482 245 60 card
+%% @text F7 20,20 24,47 400,400
+%% @box F8 330 482 245 60 card
+%% @text F8 20,20 24,47 400,400
+%% @group TYPES 60 588 530 132 classification
+%% @text TYPES 22 30 600
+%% @box TYPEVALUES 75 628 500 78 card
+%% @text TYPEVALUES 19,19 26,54 400,400
+%% @group FUNCTIONS 610 208 530 270 classification
+%% @text FUNCTIONS 22 32 600
+%% @box FUNCVALUES 625 252 500 210 card
+%% @text FUNCVALUES 18,18,18,18,18,18 27,60,93,126,159,192 400,400,400,400,400,400
+%% @group THEMES 610 498 530 222 classification
+%% @text THEMES 22 32 600
+%% @box THEMEVALUES 625 540 500 164 card
+%% @text THEMEVALUES 19,19,19,19,19 25,54,83,112,141 400,400,400,400,400
+%% @box DRM 40 776 1120 100 federation
+%% @text DRM 28,20,18 31,60,84 600,400,400
+%% @group APPLICATIONS 40 904 1120 150 application
+%% @text APPLICATIONS 27,18 32,58 600,400
+%% @box USE1 60 978 255 60 applicationcard
+%% @text USE1 21,17 25,48 600,400
+%% @box USE2 335 978 255 60 applicationcard
+%% @text USE2 21,17 25,48 600,400
+%% @box USE3 610 978 255 60 applicationcard
+%% @text USE3 21,17 25,48 600,400
+%% @box USE4 885 978 255 60 applicationcard
+%% @text USE4 21,17 25,48 600,400
+flowchart TB
+    TITLE["AMRKB<br/>Agricultural Modes Reference Knowledge Base<br/>Agricultural modes, systems, methods, practices and technologies"]
+    subgraph CONTENT["Research content — provisional, overlapping organisation"]
+        subgraph FAMILIES["Working families"]
+            F1["Traditional and<br/>Indigenous"]
+            F2["Extensive and<br/>pastoral"]
+            F3["Intensive and<br/>industrial"]
+            F4["Ecological and<br/>organic"]
+            F5["Regenerative and<br/>conservation"]
+            F6["Agroecological and<br/>diversified"]
+            F7["Precision and<br/>computational"]
+            F8["Experimental and<br/>emerging"]
+        end
+        subgraph TYPES["Distinct record concepts — not a hierarchy"]
+            TYPEVALUES["Modes · Systems · Methods · Practices<br/>Technologies · Ecological mechanisms · Indicators"]
+        end
+        subgraph FUNCTIONS["Cross-family functions"]
+            FUNCVALUES["Soil management · Water management<br/>Nutrient management · Biodiversity management<br/>Crop organisation · Tree integration<br/>Livestock integration · Pest management<br/>Microbiome management · Landscape management<br/>Climate adaptation · Monitoring and automation"]
+        end
+        subgraph THEMES["Cross-cutting research and applications"]
+            THEMEVALUES["Open agricultural technology<br/>Agricultural AI and knowledge systems<br/>Agricultural robotics<br/>Information infrastructure<br/>Ecologically informed agricultural design"]
+        end
+    end
+    DRM["DRM (developing) Database Reference Methodology<br/>Shared identities · Classifications and mappings · Relationships · Provenance<br/>Candidate methodology · Scientific authority remains with each database"]
+    subgraph APPLICATIONS["Analysis, Intelligence and Applications<br/>Emerging research uses — not implemented analytical software"]
+        USE1["Method comparison<br/>Research analysis"]
+        USE2["Practice evaluation<br/>Evidence and context"]
+        USE3["Agricultural<br/>decision support"]
+        USE4["Ecological design<br/>Place-based research"]
+    end
+    TITLE --> CONTENT
+    CONTENT <--> DRM
+    DRM <--> APPLICATIONS
+    classDef heading fill:#cce3f9,stroke:#173b6b,color:#15243d;
+    classDef knowledge fill:#e1f0e6,stroke:#41744d,color:#203d29;
+    classDef method fill:#e1daf0,stroke:#574087,color:#29223e;
+    classDef sources fill:#feeec9,stroke:#a16a16,color:#543a13;
+    classDef card fill:#fef6e3,stroke:#a16a16,color:#302b20;
+    classDef output fill:#eaedf1,stroke:#7c8c9d,color:#25334a;
+    classDef neutral fill:#f8f9fa,stroke:#99a4b0,color:#3a4656;
+    classDef federation fill:#e1daf0,stroke:#574087,stroke-width:2,color:#29223e,font-weight:600,font-size:28;
+    classDef application fill:#eaedf1,stroke:#7c8c9d,stroke-width:2,color:#25334a,font-weight:600,font-size:27;
+    classDef applicationcard fill:#f5f6f8,stroke:#9ba8b6,stroke-width:1.2,color:#25334a;
+    classDef developing stroke-dasharray:6 4;
+    classDef classification fill:#fef6e3,stroke:#a16a16,color:#302b20;
+
+    class TITLE heading;
+    class CONTENT sources;
+    class FAMILIES,TYPES,FUNCTIONS,THEMES classification;
+    class F1,F2,F3,F4,F5,F6,F7,F8,TYPEVALUES,FUNCVALUES,THEMEVALUES card;
+    class DRM federation;
+    class APPLICATIONS application;
+    class USE1,USE2,USE3,USE4 applicationcard;
+    class DRM developing;
